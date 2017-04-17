@@ -46,7 +46,13 @@ for (let i = 0; profiles.length > i; i++) {
 
 > Var!!?? Eh sério mesmo que ainda é usado??!!
 
-**Do jeito certo:**
+**SEMPRE** que você tiver um *array* e precisar iterar nele para pegar ou modificar valores, 
+
+**PELO AMOR DE ODIN USE MAP!!!!**
+
+Ja escrevi alguns conteudos sobre o dito cujo, depois link aqui.
+
+**Refatorando para o jeito certo:**
 
 ```js
 
