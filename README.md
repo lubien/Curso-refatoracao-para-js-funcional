@@ -58,7 +58,7 @@ Ja escrevi alguns conteudos sobre o dito cujo, depois link aqui.
 
 const profiles = getProfiles() // vem um array cabuloso
 
-const profilesNames = profiles.map( profile => profile.name )
+const profilesNames = profiles.map( ( profile ) => profile.name )
 
 ```
 
