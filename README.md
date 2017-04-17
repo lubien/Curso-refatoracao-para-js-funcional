@@ -4,15 +4,17 @@ Refatorar eh vida!
 
 ```js
 
-let profiles = getProfiles() // vem um array cabuloso
+var profiles = getProfiles() // vem um array cabuloso
 
-let arr = []
+var arr = []
 
 for (let i = 0; profiles.length > i; i++) {
   arr.push(profiles[i].name)
 }
 
 ```
+
+> Var!!?? Eh sério mesmo que ainda é usado??!!
 
 **Do jeito certo:**
 
