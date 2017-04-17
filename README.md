@@ -71,3 +71,22 @@ const toNames = ( profile ) => profile.name
 const profilesNames = getProfilesAnd().map( toNames )
 
 ```
+
+## forEach
+
+
+
+## Como sei o que usar?
+
+Percebo que a maior dificuldade dos meus alunos é nao saber qual a funçao correta aplicar, portanto irei explicar
+da forma mais suave na nave possível.
+
+
+### Map
+
+Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre ter´a o mesmo tamanho
+do *array* inicial**
+
+### Filter
+
+### Reduce
