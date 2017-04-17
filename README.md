@@ -98,3 +98,5 @@ retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **
 ### Reduce
 
 > Serve p/ qquer coisa. LOL
+
+![](http://www.jewellex.co.za/userfiles/Brinks%20Logo(1).jpg)
