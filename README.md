@@ -85,8 +85,16 @@ da forma mais suave na nave possível.
 ### Map
 
 Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre ter´a o mesmo tamanho
-do *array* inicial**
+do *array* inicial**, lembre bem disso que ir´a lhe poupar muito tempo!
 
 ### Filter
 
+Quando vc quer selecionar apenas determinados elementos baseados em um teste lógico, ou seja, se a funçao do `filter`
+retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **o *array* final provavelmente sera menor que o inicial**. 
+
+> Oia aí!
+
+
 ### Reduce
+
+> Serve p/ qquer coisa. LOL
