@@ -1,6 +1,6 @@
-# Curso-refatoracao-para-js-funcional
+# Curso Refatoração para JS(Jean Suissa) Funcional
 
-Esse curso também servir´a como manual de regras para os meus alunos, todo código que eu ver e nao seguir essas definiçes eu pedirei educadamente para refatorar baseando-se nesse manual de boas praticas do JS Funcional.
+Esse curso também servirá como manual de regras para os meus alunos, todo código que eu ver e não seguir essas definições eu pedirei educadamente para refatorar baseando-se nesse manual de boas praticas do JS Funcional.
 
 
 ## push
@@ -18,7 +18,7 @@ const toListOfObjects = ( acc, cur ) => {
 
 ```
 
-> **Sabe o porquê nao posso retornar o `push`?**
+> **Sabe o porquê não posso retornar o `push`?**
 
 ```js
 
@@ -27,7 +27,7 @@ const toListOfObjects = ( acc, cur ) => {
 
 ```
 
-> Nao preciso explicar neh?
+> Não preciso explicar neh?
 
 Vamos ao que interessa, esse código abaixo eu vejo direto, portanto agora só mandarei esse texto 
 para o *dev* corrigir seu código.
@@ -50,7 +50,7 @@ for (let i = 0; profiles.length > i; i++) {
 
 **PELO AMOR DE ODIN USE MAP!!!!**
 
-Ja escrevi alguns conteudos sobre o dito cujo, depois link aqui.
+Já escrevi alguns conteudos sobre o dito cujo, depois link aqui.
 
 **Refatorando para o jeito certo:**
 
