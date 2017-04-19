@@ -2,6 +2,8 @@
 
 Esse curso também servirá como manual de regras para os meus alunos, todo código que eu ver e não seguir essas definições eu pedirei educadamente para refatorar baseando-se nesse manual de boas praticas do JS Funcional.
 
+**ps: usaremos apenas JavaScript PURINHOOO!!!**
+
 ## O Curso
 
 Esse curso iria sair gratuitamente, porém por acasos da vida estou necessitado de certa quantia monetaria para quitar umas dívidas, então um aluno me sugeriu pedir como doação mas logo me veio a mente que poderia, mesmo nao querendo, cobrar pelo próximo conteúdo que estava criando. 
