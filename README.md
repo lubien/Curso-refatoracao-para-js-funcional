@@ -22,8 +22,17 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - Como e por que utilizar dados imutaveis
 - Refatorando nossos códigos antigos para JS Funcional
 
+### Tempo
+
+O curso sera' gravado entre 4 a 6 hora e sera' disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao tera uma data de lançamento definida, o lançamento ocorrera' quando atingirmos a meta de alunos.
+
+### Tempo
+
 
 ## Regras para um código mas funcional
+
+Escreverei mais regrinhas no decorrer da gravaçao das aulas.
+
 
 ### push
 
