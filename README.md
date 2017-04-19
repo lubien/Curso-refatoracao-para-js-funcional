@@ -26,7 +26,22 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 O curso sera' gravado entre 4 a 6 hora e sera' disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao tera uma data de lançamento definida, o lançamento ocorrera' quando atingirmos a meta de alunos.
 
-### Tempo
+### Inscriçao
+
+Para se inscrever basta abrir uma *issue* nesse repositório com seus seguintes dados:
+
+- Email
+- Facebook/Twitter
+- Telegram
+
+Que entrarei em contato para passar a forma de pagamento.
+
+
+### Forma de pagamento
+
+Sera feito via depósito diretamente na minha conta, ou se qusier via Paypal custara' R$40. 
+
+> **Nada daquele lixo do Pagseguro!**
 
 
 ## Regras para um código mas funcional
