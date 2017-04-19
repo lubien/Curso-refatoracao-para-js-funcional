@@ -4,9 +4,17 @@ Esse curso também servirá como manual de regras para os meus alunos, todo cód
 
 ## O Curso
 
+Esse curso iria sair gratuitamente, porém por acasos da vida estou necessitado de certa quantia monetaria para quitar umas dívidas, entao um aluno me sugeriu pedir como doaçao mas logo me veio a mente que poderia, mesmo nao querendo, cobrar pelo próximo conteúdo que estava criando. 
+
+Como a maioria que me conhece, sabe que todos meus conteúdos sao gratuitos. Logo quando a meta for alcançada irei liberar 
+para todos o curso que contara' com um certificado emitido pela Webschool.
+
+- custo: R$35
+- meta: 100 alunos
+- data: quando alcançar a meta
 
 
-## Regras
+## Regras para um código mas funcional
 
 ### push
 
