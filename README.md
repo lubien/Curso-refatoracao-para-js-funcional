@@ -2,8 +2,13 @@
 
 Esse curso também servirá como manual de regras para os meus alunos, todo código que eu ver e não seguir essas definições eu pedirei educadamente para refatorar baseando-se nesse manual de boas praticas do JS Funcional.
 
+## O Curso
 
-## push
+
+
+## Regras
+
+### push
 
 > Sabe onde é o único lugar que vc **DEVE** usar o no `reduce` para *array*.
 
@@ -72,22 +77,22 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 ```
 
-## forEach
+### forEach
 
 
 
-## Como sei o que usar?
+### Como sei o que usar?
 
 Percebo que a maior dificuldade dos meus alunos é nao saber qual a funçao correta aplicar, portanto irei explicar
 da forma mais suave na nave possível.
 
 
-### Map
+#### Map
 
 Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre ter´a o mesmo tamanho
 do *array* inicial**, lembre bem disso que ir´a lhe poupar muito tempo!
 
-### Filter
+#### Filter
 
 Quando vc quer selecionar apenas determinados elementos baseados em um teste lógico, ou seja, se a funçao do `filter`
 retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **o *array* final provavelmente sera menor que o inicial**. 
@@ -95,7 +100,7 @@ retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **
 > Oia aí!
 
 
-### Reduce
+#### Reduce
 
 > Serve p/ qquer coisa. LOL
 
