@@ -4,7 +4,7 @@ Esse curso também servirá como manual de regras para os meus alunos, todo cód
 
 ## O Curso
 
-Esse curso iria sair gratuitamente, porém por acasos da vida estou necessitado de certa quantia monetaria para quitar umas dívidas, entao um aluno me sugeriu pedir como doaçao mas logo me veio a mente que poderia, mesmo nao querendo, cobrar pelo próximo conteúdo que estava criando. 
+Esse curso iria sair gratuitamente, porém por acasos da vida estou necessitado de certa quantia monetaria para quitar umas dívidas, então um aluno me sugeriu pedir como doação mas logo me veio a mente que poderia, mesmo nao querendo, cobrar pelo próximo conteúdo que estava criando. 
 
 Como a maioria que me conhece, sabe que todos meus conteúdos sao gratuitos. Logo quando a meta for alcançada irei liberar 
 para todos o curso que contara' com um certificado emitido pela Webschool.
@@ -22,9 +22,11 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - Como e por que utilizar dados imutaveis
 - Refatorando nossos códigos antigos para JS Funcional
 
+ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções nao muito conhecidas!
+
 ### Tempo
 
-O curso sera' gravado entre 4 a 6 hora e sera' disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao tera uma data de lançamento definida, o lançamento ocorrera' quando atingirmos a meta de alunos.
+O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
 
 ### Inscriçao
 
@@ -39,14 +41,14 @@ Que entrarei em contato para passar a forma de pagamento.
 
 ### Forma de pagamento
 
-Sera feito via depósito diretamente na minha conta, ou se qusier via Paypal custara' R$40. 
+Será feito via depósito diretamente na minha conta, ou se quiser via Paypal custara' R$40. 
 
 > **Nada daquele lixo do Pagseguro!**
 
 
 ## Regras para um código mas funcional
 
-Escreverei mais regrinhas no decorrer da gravaçao das aulas.
+Escreverei mais regrinhas no decorrer da gravação das aulas.
 
 
 ### push
