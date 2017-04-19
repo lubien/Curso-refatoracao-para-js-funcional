@@ -14,6 +14,15 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - data: quando alcançar a meta
 
 
+### Ementa
+
+- (Por que|Quando|Onde) usar Programaçao Funcional?
+- Como eliminar efeitos colaterais
+- Como iterar em *arrays* da forma correta
+- Como e por que utilizar dados imutaveis
+- Refatorando nossos códigos antigos para JS Funcional
+
+
 ## Regras para um código mas funcional
 
 ### push
