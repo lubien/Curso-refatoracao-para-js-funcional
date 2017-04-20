@@ -30,6 +30,8 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
 
+> **Serão pelo menos 10 aulas, 1 a cada 10 alunos inscritos!**
+
 ### Inscrição
 
 Para se inscrever basta abrir uma *issue* nesse repositório com seus seguintes dados:
