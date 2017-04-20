@@ -24,13 +24,13 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - Como e por que utilizar dados imutaveis
 - Refatorando nossos códigos antigos para JS Funcional
 
-ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções nao muito conhecidas!
+*ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções não muito conhecidas!*
 
 ### Tempo
 
 O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
 
-### Inscriçao
+### Inscrição
 
 Para se inscrever basta abrir uma *issue* nesse repositório com seus seguintes dados:
 
@@ -43,7 +43,7 @@ Que entrarei em contato para passar a forma de pagamento.
 
 ### Forma de pagamento
 
-Será feito via depósito diretamente na minha conta, ou se quiser via Paypal custara' R$40. 
+Será feito via depósito diretamente na minha conta, ou se quiser via Paypal custará R$40. 
 
 > **Nada daquele lixo do Pagseguro!**
 
