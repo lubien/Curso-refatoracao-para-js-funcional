@@ -48,7 +48,9 @@ Será feito via depósito diretamente na minha conta, ou se quiser via Paypal cu
 > **Nada daquele lixo do Pagseguro!**
 
 
-## Regras para um código mas funcional
+<hr>
+
+## Regras para um código mais funcional
 
 Escreverei mais regrinhas no decorrer da gravação das aulas.
 
