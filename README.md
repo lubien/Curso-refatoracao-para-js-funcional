@@ -26,6 +26,11 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 *ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções não muito conhecidas!*
 
+### Certificado
+
+O aluno recebera' um certificado mediante a refatoraçao de pelo menos 5 códigos antigos seus que estejam dentro
+das diretrizes passadas nas aulas.
+
 ### Tempo
 
 O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
