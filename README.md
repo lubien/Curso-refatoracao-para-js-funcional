@@ -1,10 +1,19 @@
 # Curso Refatoração para JS(Jean Suissa) Funcional
 
+> **Se você ainda usa `var`, `forEach`, `push` e outras funções não puras esse curso é obrigatório!**
+
+> **Se você ja conhece as boas práticas mas ainda não domina o `map`, `filter` e `reduce`; esse curso é obrigatório!**
+
+> **Se você não conhece ou nunca trabalhou com dados imutáveis; esse curso é obrigatório!**
+
 Percebo que a maioria dos devs nao refatora seu código por nao saber como deixa-lo melhor e é exatamente isso que ensinarei, mas nao apenas como refatorar para JS Funcional como também a pensar de uma forma mais funcional para resolver seus futuros problemas.
 
 Esse curso também servirá como manual de regras para os meus alunos, todo código que eu ver e não seguir essas definições eu pedirei educadamente para refatorar baseando-se nesse manual de boas praticas do JS Funcional.
 
 **ps: usaremos apenas JavaScript PURINHOOO!!!**
+
+> Depois desse curso o aluno estará apto a criar funções puras utilizando-se de dados imutáveis, eliminando a maioria dos efeitos colaterais que hoje fodem suas vidas.
+
 
 ## O Curso
 
