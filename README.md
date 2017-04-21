@@ -144,7 +144,13 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 ### forEach
 
+### Callbacks
 
+<br>
+
+> Por favor separem os *callbacks* e os nomeem semanticamente!
+
+<br>
 
 ### Como sei o que usar?
 
