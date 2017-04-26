@@ -114,7 +114,7 @@ for (let i = 0; profiles.length > i; i++) {
 
 ```
 
-> Var!!?? Eh sério mesmo que ainda é usado??!!
+> `var`!!?? Eh sério mesmo que ainda é usado??!!
 
 **SEMPRE** que você tiver um *array* e precisar iterar nele para pegar ou modificar valores, 
 
@@ -146,29 +146,32 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 ### Callbacks
 
-### Object
-
 <br>
 
 > Por favor separem os *callbacks* e os nomeem semanticamente!
 
 <br>
 
+
+### Object
+
+Para nao ferirmos a imutabilidade dos dados, quando formos modificar um objeto iremos utilizar o `Object.assign`.
+
 ### Como sei o que usar?
 
-Percebo que a maior dificuldade dos meus alunos é nao saber qual a funçao correta aplicar, portanto irei explicar
+Percebo que a maior dificuldade dos meus alunos é não saber qual a função correta aplicar, portanto irei explicar
 da forma mais suave na nave possível.
 
 
 #### Map
 
-Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre ter´a o mesmo tamanho
-do *array* inicial**, lembre bem disso que ir´a lhe poupar muito tempo!
+Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre terá o mesmo tamanho
+do *array* inicial**, lembre bem disso que irá lhe poupar muito tempo!
 
 #### Filter
 
-Quando vc quer selecionar apenas determinados elementos baseados em um teste lógico, ou seja, se a funçao do `filter`
-retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **o *array* final provavelmente sera menor que o inicial**. 
+Quando vc quer selecionar apenas determinados elementos baseados em um teste lógico, ou seja, se a função do `filter`
+retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **o *array* final provavelmente será menor que o inicial**. 
 
 > Oia aí!
 
