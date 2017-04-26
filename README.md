@@ -146,6 +146,8 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 ### Callbacks
 
+### Object
+
 <br>
 
 > Por favor separem os *callbacks* e os nomeem semanticamente!
