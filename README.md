@@ -47,13 +47,20 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - Como e por que utilizar dados imutaveis
 - Refatorando nossos códigos antigos para JS Funcional
 
-*ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções não muito conhecidas!*
+#### Técnica
+
+- *closures*
+- *immutable data*
+- *pure functions*
+- *first class & high order functions*
+
+*ps: Deixarei currying e compose para o próximo curso que será mais "avançado".*
 
 <br>
 
 ### Certificado
 
-O aluno recebera' um certificado mediante a refatoraçao de pelo menos 5 códigos antigos seus que estejam dentro
+O aluno receberá um certificado mediante a refatoraçao de pelo menos 5 códigos antigos seus que estejam dentro
 das diretrizes passadas nas aulas.
 
 <br>
@@ -235,4 +242,12 @@ retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **
 
 ### Links
 
+#### pr-br
+
+- [Ebook - Map](https://github.com/suissa/Ebooks/blob/master/JS%20Funcional/Map/README.md)
+- [JS Funcional](https://github.com/Webschool-io/workshop-js-funcional-free)
+
+#### en
+
+- [Mostly Adequate Guide](https://drboolean.gitbooks.io/mostly-adequate-guide/)
 - [How Functional Reactive Programming (FRP) is Changing the Face of Web Development](http://www.codemag.com/Article/1601071)
