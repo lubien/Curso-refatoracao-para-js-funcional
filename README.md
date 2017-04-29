@@ -1,10 +1,18 @@
 # Curso Refatoração para JS(Jean Suissa) Funcional
 
+<br>
+
 > **Se você ainda usa `var`, `forEach`, `push` e outras funções não puras esse curso é obrigatório!**
+
+<br>
 
 > **Se você ja conhece as boas práticas mas ainda não domina o `map`, `filter` e `reduce`; esse curso é obrigatório!**
 
+<br>
+
 > **Se você não conhece ou nunca trabalhou com dados imutáveis; esse curso é obrigatório!**
+
+<br>
 
 Percebo que a maioria dos devs nao refatora seu código por nao saber como deixa-lo melhor e é exatamente isso que ensinarei, mas nao apenas como refatorar para JS Funcional como também a pensar de uma forma mais funcional para resolver seus futuros problemas.
 
@@ -14,6 +22,8 @@ Esse curso também servirá como manual de regras para os meus alunos, todo cód
 
 > Depois desse curso o aluno estará apto a criar funções puras utilizando-se de dados imutáveis, eliminando a maioria dos efeitos colaterais que hoje fodem suas vidas.
 
+
+<br>
 
 ## O Curso
 
@@ -27,6 +37,8 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - data: quando alcançar a meta
 
 
+<br>
+
 ### Ementa
 
 - (Por que|Quando|Onde) usar Programaçao Funcional?
@@ -37,16 +49,22 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 *ps: Óbviamente veremos **muitooooo** `map`, `filter` e `reduce`, fora outras funções não muito conhecidas!*
 
+<br>
+
 ### Certificado
 
 O aluno recebera' um certificado mediante a refatoraçao de pelo menos 5 códigos antigos seus que estejam dentro
 das diretrizes passadas nas aulas.
+
+<br>
 
 ### Tempo
 
 O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
 
 > **Serão pelo menos 10 aulas, 1 a cada 10 alunos inscritos!**
+
+<br>
 
 ### Inscrição
 
@@ -59,6 +77,8 @@ Para se inscrever basta abrir uma *issue* nesse repositório com seus seguintes 
 Que entrarei em contato para passar a forma de pagamento.
 
 
+<br>
+
 ### Forma de pagamento
 
 Será feito via depósito diretamente na minha conta, ou se quiser via Paypal custará R$40. 
@@ -68,10 +88,14 @@ Será feito via depósito diretamente na minha conta, ou se quiser via Paypal cu
 
 <hr>
 
+<br>
+
 ## Regras para um código mais funcional
 
 Escreverei mais regrinhas no decorrer da gravação das aulas.
 
+
+<br>
 
 ### push
 
@@ -142,7 +166,11 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 ```
 
+<br>
+
 ### forEach
+
+<br>
 
 ### Callbacks
 
@@ -157,16 +185,24 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 Para nao ferirmos a imutabilidade dos dados, quando formos modificar um objeto iremos utilizar o `Object.assign`.
 
+<br>
+<br>
+
+
 ### Como sei o que usar?
 
 Percebo que a maior dificuldade dos meus alunos é não saber qual a função correta aplicar, portanto irei explicar
 da forma mais suave na nave possível.
+
+<br>
 
 
 #### Map
 
 Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre terá o mesmo tamanho
 do *array* inicial**, lembre bem disso que irá lhe poupar muito tempo!
+
+<br>
 
 #### Filter
 
@@ -175,6 +211,8 @@ retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **
 
 > Oia aí!
 
+
+<br>
 
 #### Reduce
 
