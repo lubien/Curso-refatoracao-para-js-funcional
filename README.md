@@ -50,6 +50,8 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 #### Técnica
 
 - *closures*
+- *side effects*
+- *declarative coding*
 - *immutable data*
 - *pure functions*
 - *first class & high order functions*
