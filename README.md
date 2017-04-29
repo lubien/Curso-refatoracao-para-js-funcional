@@ -231,3 +231,8 @@ retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **
 > Serve p/ qquer coisa. LOL
 
 ![](http://www.jewellex.co.za/userfiles/Brinks%20Logo(1).jpg)
+
+
+### Links
+
+- [How Functional Reactive Programming (FRP) is Changing the Face of Web Development](http://www.codemag.com/Article/1601071)
