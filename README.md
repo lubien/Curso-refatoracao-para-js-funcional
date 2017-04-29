@@ -86,18 +86,30 @@ Será feito via depósito diretamente na minha conta, ou se quiser via Paypal cu
 > **Nada daquele lixo do Pagseguro!**
 
 
+<br>
+
+### Exercícios
+
+**Como eu sempre passo exercícios nos meus cursos nesse nao sera' diferente!** E como esse curso é sobre refatoraçao cada aluno tera' que aplicar a técnica ensinada na aula **apenas** em algum código seu!
+
+Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini *lib* com todas as funções demonstradas em aula que possam ser facilmente re-usadas em outras situações.
+
+<br>
+
 <hr>
 
 <br>
 
-## Regras para um código mais funcional
+## Conteúdo
+
+### Regras para um código mais funcional
 
 Escreverei mais regrinhas no decorrer da gravação das aulas.
 
 
 <br>
 
-### push
+#### push
 
 > Sabe onde é o único lugar que vc **DEVE** usar o no `reduce` para *array*.
 
@@ -168,11 +180,11 @@ const profilesNames = getProfilesAnd().map( toNames )
 
 <br>
 
-### forEach
+#### forEach
 
 <br>
 
-### Callbacks
+#### Callbacks
 
 <br>
 
@@ -181,7 +193,7 @@ const profilesNames = getProfilesAnd().map( toNames )
 <br>
 
 
-### Object
+#### Object
 
 Para nao ferirmos a imutabilidade dos dados, quando formos modificar um objeto iremos utilizar o `Object.assign`.
 
