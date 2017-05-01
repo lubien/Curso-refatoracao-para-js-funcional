@@ -39,6 +39,32 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 <br>
 
+### Pré-requisitos
+
+> **Se você tem mais que 4 meses de trabalho com JavaScript, isso inclui jQuery, angular, Vanilla, React, Vue, 
+Inferno, Ember, etc. Você pode fazer esse curso.**
+
+Cada técnica ensinada, uma por aula, terá o seu conceito explicado, ou seja, o foco do curso de iniciantes 
+para cima.
+
+<br>
+
+
+### Competências adquiridas
+
+- código limpo
+- código testável
+- código re-usável
+- código funcional
+- código atualizado
+- código modular e atômico
+- código com maior legibilidade
+- código menos suscetível a erros
+- código com maior manutenibilidade
+
+<br>
+
+
 ### Ementa
 
 - (Por que|Quando|Onde) usar Programaçao Funcional?
@@ -46,6 +72,9 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - Como iterar em *arrays* da forma correta
 - Como e por que utilizar dados imutaveis
 - Refatorando nossos códigos antigos para JS Funcional
+
+<br>
+
 
 #### Técnica
 
@@ -56,7 +85,7 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 - *pure functions*
 - *first class & high order functions*
 
-*ps: Deixarei currying e compose para o próximo curso que será mais "avançado".*
+*ps: Deixarei currying e compose como bônus se chegarmos a 100 inscritos.*
 
 <br>
 
