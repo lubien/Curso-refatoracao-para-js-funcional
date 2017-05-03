@@ -1,18 +1,26 @@
 # Curso Refatoração para JS(Jean Suissa) Funcional
 
 <br>
+<br>
+
 
 > **Se você ainda usa `var`, `forEach`, `push` e outras funções não puras esse curso é obrigatório!**
 
 <br>
+<br>
+
 
 > **Se você ja conhece as boas práticas mas ainda não domina o `map`, `filter` e `reduce`; esse curso é obrigatório!**
 
 <br>
+<br>
+
 
 > **Se você não conhece ou nunca trabalhou com dados imutáveis; esse curso é obrigatório!**
 
 <br>
+<br>
+
 
 Percebo que a maioria dos devs nao refatora seu código por nao saber como deixa-lo melhor e é exatamente isso que ensinarei, mas nao apenas como refatorar para JS Funcional como também a pensar de uma forma mais funcional para resolver seus futuros problemas.
 
@@ -41,11 +49,11 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 ### Pré-requisitos
 
-> **Se você tem mais que 4 meses de trabalho com JavaScript, isso inclui jQuery, angular, Vanilla, React, Vue, 
-Inferno, Ember, etc. Você pode fazer esse curso.**
+> **Se você tem mais que 4 meses de trabalho com JavaScript, isso inclui jQuery, 
+angular, Vanilla, React, Vue, Inferno, Ember, etc. Você pode fazer esse curso.**
 
-Cada técnica ensinada, uma por aula, terá o seu conceito explicado, ou seja, o foco do curso de iniciantes 
-para cima.
+Cada técnica ensinada, uma por aula, terá o seu conceito devidamente explicado, ou seja, 
+o foco do curso é de iniciantes para cima.
 
 <br>
 
