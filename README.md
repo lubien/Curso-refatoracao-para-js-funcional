@@ -50,10 +50,11 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 ### Pré-requisitos
 
 > **Se você tem mais que 4 meses de trabalho com JavaScript, isso inclui jQuery, 
-angular, Vanilla, React, Vue, Inferno, Ember, etc. Você pode fazer esse curso.**
+> angular, Vanilla, React, Vue, Inferno, Ember, etc. 
+> Você pode fazer esse curso.**
 
-Cada técnica ensinada, uma por aula, terá o seu conceito devidamente explicado, ou seja, 
-o foco do curso é de iniciantes para cima.
+Cada técnica ensinada, uma por aula, terá o seu conceito 
+devidamente explicado, ou seja, o foco do curso é de iniciantes para cima.
 
 <br>
 
