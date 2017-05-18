@@ -1,5 +1,7 @@
 # Curso Refatoração para JS(Jean Suissa) Funcional
 
+![](http://i.imgur.com/NP5IbYc.jpg)
+
 <br>
 <br>
 
@@ -149,136 +151,6 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 
 ## Conteúdo
 
-### Regras para um código mais funcional
-
-Escreverei mais regrinhas no decorrer da gravação das aulas.
-
-
-<br>
-
-#### push
-
-> Nunca use-o!
-
-```js
-
-const toListOfObjects = ( acc, cur ) => 
-  acc.concat({ index: cur})
-
-[1, 2, 3, 4].reduce( toListOfObjects, [] )
-//[ { index: 1 }, { index: 2 }, { index: 3 }, { index: 4 } ]
-
-```
-
-
-> **Use o concat meu filho!**
-
-Vamos ao que interessa, esse código abaixo eu vejo direto, portanto agora só mandarei esse texto 
-para o *dev* corrigir seu código.
-
-```js
-
-var profiles = getProfiles() // vem um array cabuloso
-
-var arr = []
-
-for (let i = 0; profiles.length > i; i++) {
-  arr.push(profiles[i].name)
-}
-
-```
-
-> var!!?? Eh sério mesmo que ainda é usado??!!
-
-**SEMPRE** que você tiver um *array* e precisar iterar nele para pegar ou modificar valores, 
-
-**PELO AMOR DE ODIN USE MAP!!!!**
-
-Já escrevi alguns conteudos sobre o dito cujo, depois link aqui.
-
-**Refatorando para o jeito certo:**
-
-```js
-
-const profiles = getProfiles() // vem um array cabuloso
-
-const profilesNames = profiles.map( ( profile ) => profile.name )
-
-```
-
-Semantificando o code:
-
-
-```js
-
-const toNames = ( profile ) => profile.name 
-const profilesNames = getProfilesAnd().map( toNames )
-
-```
-
-<br>
-
-#### forEach
-
-<br>
-
-#### Callbacks
-
-<br>
-
-> Por favor separem os *callbacks* e os nomeem semanticamente!
-
-<br>
-
-
-#### Object
-
-Para nao ferirmos a imutabilidade dos dados, quando formos modificar um objeto iremos utilizar o `Object.assign`.
-
-<br>
-<br>
-
-
-### Como sei o que usar?
-
-Percebo que a maior dificuldade dos meus alunos é não saber qual a função correta aplicar, portanto irei explicar
-da forma mais suave na nave possível.
-
-<br>
-
-
-#### Map
-
-Quando vc precisar modificar valores ou selecionar apenas alguns, porém o **resultado sempre terá o mesmo tamanho
-do *array* inicial**, lembre bem disso que irá lhe poupar muito tempo!
-
-<br>
-
-#### Filter
-
-Quando vc quer selecionar apenas determinados elementos baseados em um teste lógico, ou seja, se a função do `filter`
-retornar `true` esse elemento sera adicionado no *array* resultante. Portanto **o *array* final provavelmente será menor que o inicial**. 
-
-> Oia aí!
-
-
-<br>
-
-#### Reduce
-
-> Serve p/ qquer coisa. LOL
-
-![](http://www.jewellex.co.za/userfiles/Brinks%20Logo(1).jpg)
-
-
-### Links
-
-#### pr-br
-
-- [Ebook - Map](https://github.com/suissa/Ebooks/blob/master/JS%20Funcional/Map/README.md)
-- [JS Funcional](https://github.com/Webschool-io/workshop-js-funcional-free)
-
-#### en
-
-- [Mostly Adequate Guide](https://drboolean.gitbooks.io/mostly-adequate-guide/)
-- [How Functional Reactive Programming (FRP) is Changing the Face of Web Development](http://www.codemag.com/Article/1601071)
+- [Regras para um código mais funcional](./regras.md)
+- [Como sei o que usar?](./o.que.usar.md)
+- [Links](./links.md)
