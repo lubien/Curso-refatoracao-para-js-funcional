@@ -4,6 +4,10 @@
 
 ### Funçoes
 
+O algoritmo mais basico que aprendemos na faculdade é o de testar uma idade.
+
+Mais facil mostrar do que falar:
+
 ```js
 
 var idade = 19
