@@ -114,6 +114,8 @@ console.log( lower )
 
 > Percebeu a malandragem???
 
+Fiz apenas como exemplo, pois normalmente nao fazemos a negaçao dessa forma. Entao aguarde que ainda chegaremos la!
+
 ## Code Style Funcional
 
 * **Use 2 espaços** para identação.
