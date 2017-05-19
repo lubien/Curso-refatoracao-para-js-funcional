@@ -61,7 +61,6 @@ Vamos pensar que precisamos testar a idade de um grupo de pessoas:
 
 const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
 
-const nao = ( algo ) => !algo
 const ehMaior = ( idade ) => idade >= 18 
 const escreveEhMaior = () => "Eh maior de idade"
 
@@ -90,7 +89,30 @@ console.log( escreveEhMaior(), maiores.join(', ') )
 
 > Percebeu qual o problema com o código acima mesmo ele dando o mesmo resultado?
 
+Fora que podemos refatorar nosso código para deixa-lo mais genérico para que possa ser reusado em outros contextos, por exemplo:
 
+
+```js
+
+const ages = [ 4, 5, 8, 17, 18, 19, 666 ]
+
+const not = ( something ) => ! something
+const isBiggerThan = ( y, not ) => ( x ) => 
+  ( not ) ? not( x > y ) : x > y
+
+const isBiggerThan8 = isBiggerThan( 8 )
+const isLowerThan8 = isBiggerThan( 8, not )
+const bigger = ages.filter( isBiggerThan8 )
+const lower = ages.filter( isLowerThan8 )
+
+console.log( bigger )
+// [ 17, 18, 19, 666 ]
+console.log( lower )
+// [ 4, 5, 8 ]
+
+```
+
+> Percebeu a malandragem???
 
 ## Code Style Funcional
 
