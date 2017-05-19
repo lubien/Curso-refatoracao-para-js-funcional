@@ -1,7 +1,94 @@
 # Aulas
 
-## Aula 1 - Code Style Funcional
+## Aula 1
 
+### Funçoes
+
+```js
+
+var idade = 19
+
+if ( idade >= 18 )
+  return "Eh maior de idade"
+else
+  return "Eh menor de idade"
+
+```
+
+Pense comigo:
+
+> Quando vc testa algo qual a resposta que vc espera?
+
+> **Se é verdadeiro ou falso.**
+
+```js
+
+const idade = 19
+
+const ehMaior = ( idade ) => idade >= 18 
+
+ehMaior( idade )
+  ? "Eh maior de idade"
+  : "Eh menor de idade"
+
+```
+
+```js
+
+const idade = 19
+
+const ehMaior = ( idade ) => idade >= 18 
+const escreveEhMaior = () => "Eh maior de idade"
+const escreveEhMenor = () => "Eh menor de idade"
+
+ehMaior( idade )
+  ? escreveEhMaior()
+  : escreveEhMenor()
+
+```
+
+> Sabe por que dessa forma é melhor??
+
+> Simples, mostrarei com código!
+
+Vamos pensar que precisamos testar a idade de um grupo de pessoas:
+
+```js
+
+const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
+
+const nao = ( algo ) => !algo
+const ehMaior = ( idade ) => idade >= 18 
+const escreveEhMaior = () => "Eh maior de idade"
+
+const maiores = idades.filter( ehMaior )
+
+console.log( escreveEhMaior(), maiores.join(', ') )
+
+```
+
+E agora no modo imperativo:
+
+```js
+const escreveEhMaior = () => "Eh maior de idade"
+
+const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
+let maiores = []
+
+for (let i = 0; i < idades.length; i++ ) {
+  if ( idades[ i ] >= 18 ) 
+    maiores.push( idades[ i ] )
+}
+
+console.log( escreveEhMaior(), maiores.join(', ') )
+
+```
+
+> Percebeu qual o problema com o código acima mesmo ele dando o mesmo resultado?
+
+
+
+## Code Style Funcional
 
 * **Use 2 espaços** para identação.
 
