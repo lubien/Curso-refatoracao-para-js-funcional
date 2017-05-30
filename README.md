@@ -139,7 +139,7 @@ Será feito via depósito diretamente na minha conta, ou se quiser via Paypal cu
 
 ### Exercícios
 
-**Como eu sempre passo exercícios nos meus cursos nesse nao sera' diferente!** E como esse curso é sobre refatoraçao cada aluno tera' que aplicar a técnica ensinada na aula **apenas** em algum código seu!
+**Como eu sempre passo exercícios nos meus cursos nesse não será diferente!** E como esse curso é sobre refatoração cada aluno terá que aplicar a técnica ensinada na aula, **de preferência** em algum código seu!
 
 Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini *lib* com todas as funções demonstradas em aula que possam ser facilmente re-usadas em outras situações.
 
