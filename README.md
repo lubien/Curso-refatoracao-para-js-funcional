@@ -159,6 +159,12 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 
 > **Teremos sorteios no curso graças a esses apoios!!!**
 
-### Fernando Daciuk
+### ![Fernando Daciuk](https://github.com/fdaciuk) - Curso ReactJS Ninja
 
 [![Curso ReactJS Ninja](https://blog.da2k.com.br/uploads/2016/05/curso-reactjs-ninja.png)](https://blog.da2k.com.br/curso-reactjs-ninja/)
+
+
+
+### ![William Bruno](https://github.com/wbruno) - Construindo aplicações com NodeJS
+
+[![Construindo aplicações com NodeJS](https://s3.novatec.com.br/capas-ampliadas/capa-ampliada-9788575224564.jpg)](https://novatec.com.br/livros/nodejs/)
