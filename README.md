@@ -154,3 +154,11 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 - [Regras para um código mais funcional](./regras.md)
 - [Como sei o que usar?](./o.que.usar.md)
 - [Links](./links.md)
+
+## Apoio
+
+> **Teremos sorteios no curso graças a esses apoios!!!**
+
+### Fernando Daciuk
+
+[![Curso ReactJS Ninja](https://blog.da2k.com.br/uploads/2016/05/curso-reactjs-ninja.png)](https://blog.da2k.com.br/curso-reactjs-ninja/)
