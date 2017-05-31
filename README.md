@@ -51,7 +51,7 @@ para todos o curso que contara' com um certificado emitido pela Webschool.
 
 ### Pré-requisitos
 
-> **Se você tem mais que 4 meses de trabalho com JavaScript, isso inclui jQuery, 
+> **Se você tem mais que 2 meses de trabalho com JavaScript, isso inclui jQuery, 
 > angular, Vanilla, React, Vue, Inferno, Ember, etc. 
 > Você pode fazer esse curso.**
 
@@ -109,9 +109,7 @@ das diretrizes passadas nas aulas.
 
 ### Tempo
 
-O curso será gravado entre 4 a 6 hora e será disponibilizado **apenas** após termos 100 alunos. Logo esse curso nao terá uma data de lançamento definida, o lançamento ocorrerá quando atingirmos a meta de alunos.
-
-> **Serão pelo menos 10 aulas, 1 a cada 10 alunos inscritos!**
+O curso será gravado e terá entre 1 a 3 horas e será disponibilizado **apenas** após termos 100 alunos pagantes. Esse curso será lançado no início de Junho ou quando atingirmos a meta de alunos.
 
 <br>
 
