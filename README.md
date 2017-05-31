@@ -166,3 +166,9 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 ### [William Bruno](https://github.com/wbruno) - Livros - 2 - Construindo aplicações com NodeJS
 
 [![Construindo aplicações com NodeJS](https://s3.novatec.com.br/capas-ampliadas/capa-ampliada-9788575224564.jpg)](https://novatec.com.br/livros/nodejs/)
+
+
+
+### [Novatec](https://novatec.com.br/) - Livros - 1 - Primeiros passos com React
+
+[![Primeiros passos com React](https://s3.novatec.com.br/capas-ampliadas/capa-ampliada-9788575225202.jpg)](https://novatec.com.br/livros/primeiros-passos-com-react/)
