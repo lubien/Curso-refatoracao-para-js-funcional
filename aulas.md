@@ -1,5 +1,14 @@
 # Aulas
 
+- code style funcional
+- map
+- filter
+- reduce
+- flatten
+- concat
+- Object
+- ...
+
 ## Aula 1
 
 ### Funçoes
