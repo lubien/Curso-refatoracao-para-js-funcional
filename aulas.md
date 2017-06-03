@@ -1,5 +1,6 @@
 # Aulas
 
+- intro
 - code style funcional
 - map
 - filter
@@ -124,6 +125,38 @@ console.log( lower )
 > Percebeu a malandragem???
 
 Fiz apenas como exemplo, pois normalmente nao fazemos a negaçao dessa forma. Entao aguarde que ainda chegaremos la!
+
+Depois de saber disso vou demonstrar como pensar em reduzir um problema q pode até parecer simples, como a validaçao de um número primo
+
+### Aula 1 - Resolvendo um problema
+
+Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, os quais vc consegue ler e ja entender.
+
+Exemplo:
+
+> O que é um número primo?
+
+> "...um número natural primo tem unicamente dois divisores naturais distintos: o número um e ele mesmo"
+
+fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
+
+Com isso podemos inferir que:
+
+> Ele só é divisível por ele mesmo e por 1.
+
+Logo isso nos remete a outros 2 conceitos numéricos, um número pode ser par ou ímpar, correto???
+
+Para um número ser par ele precisa ser o que?
+
+> **Divisível por 2!**
+
+
+
+
+
+### Aula 1 - Refatorando a soluçao
+
+
 
 ## Code Style Funcional
 
