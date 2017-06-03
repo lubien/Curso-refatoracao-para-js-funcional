@@ -133,6 +133,8 @@ Depois de saber disso vou demonstrar como pensar em reduzir um problema q pode a
 
 ### Aula 1 - Resolvendo um problema
 
+Preciso testar se os números 10.002 e 10.003 s4o primos.
+
 <br>
 
 
@@ -170,7 +172,7 @@ Entao QQUER número par ...
 
 Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
 
-
+Levando isso em consideraçao ja temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
 
 
 
