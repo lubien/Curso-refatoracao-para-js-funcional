@@ -128,7 +128,13 @@ Fiz apenas como exemplo, pois normalmente nao fazemos a negaçao dessa forma. En
 
 Depois de saber disso vou demonstrar como pensar em reduzir um problema q pode até parecer simples, como a validaçao de um número primo
 
+<br>
+<br>
+
 ### Aula 1 - Resolvendo um problema
+
+<br>
+
 
 Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, os quais vc consegue ler e ja entender.
 
@@ -149,6 +155,20 @@ Logo isso nos remete a outros 2 conceitos numéricos, um número pode ser par ou
 Para um número ser par ele precisa ser o que?
 
 > **Divisível por 2!**
+
+Entao QQUER número par ...
+
+
+<br>
+<br>
+<br>
+
+> Ñ pode ser primo!
+
+
+> **Nopzzz!** Nem todos.
+
+Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
 
 
 
