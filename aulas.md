@@ -8,7 +8,8 @@
 - flatten
 - concat
 - Object
-- ...
+- this
+- ng1
 
 ## Aula 1
 
@@ -152,6 +153,35 @@ Com isso podemos inferir que:
 
 > Ele só é divisível por ele mesmo e por 1.
 
+Entao o algoritmo para sabermos isso eh BEM simples:
+
+```
+
+Pego o número e testo se a divisao deles por TODOS seus
+antecessores, menos o 1, retorna 0 em algum momento.
+
+Se retornar eh pq esse número tem divisor entre ele e o 1,
+logo ñ é primo!
+
+Se ñ achar nenhum é primo!
+
+```
+
+Vejamos isso em JS comum:
+
+```js
+
+const _isPrime = ( n ) => { 
+  let c = n-1; 
+  
+  while( c-- ){ 
+    if( (n % c) === 0) return false
+   } 
+   return true 
+ }
+
+```
+
 Logo isso nos remete a outros 2 conceitos numéricos, um número pode ser par ou ímpar, correto???
 
 Para um número ser par ele precisa ser o que?
@@ -174,7 +204,7 @@ Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
 
 Levando isso em consideraçao ja temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
 
-
+Se formo
 
 ### Aula 1 - Refatorando a soluçao
 
