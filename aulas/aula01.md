@@ -1,12 +1,12 @@
 # λAula01.(Como solucionar um problema)
 
-Provavelmente esse curso seja bem diferente do que você est4 acostumado, <br> 
+Provavelmente esse curso seja bem diferente do que você está acostumado, <br> 
 pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
 <br> 
 
-Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**<br>
-Por isso você ir4 ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
+Quem sabe você ache chato no início mas bote fé que **eu garanto que você irá aprender!**<br>
+Por isso você vai ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
 
 Creio que sua própria definição diz tudo:
 
@@ -24,7 +24,7 @@ Creio que sua própria definição diz tudo:
 <br>
 
 Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional  
-<br> caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
+<br> caso você **ainda** não tenha ouvido falar, o que acho **muito** difícil.
 
 <br>
 
@@ -62,7 +62,7 @@ Lembre dessa parte muito bem:
 
 <br>
 
-Logo m4is você ir4 entender o porquê.
+Logo mais você irá entender o porquê.
 
 
 ![](http://media2.giphy.com/media/TY7dLV4kDmZSU/giphy.gif)
@@ -90,7 +90,7 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 
-> \- **L4 vem o Suissa com esse papo de Matem4tica, pqp!**
+> \- **Lá vem o Suissa com esse papo de Matemática, pqp!**
 
 <br>
 
@@ -107,17 +107,17 @@ Eu acredito, IMHO, que para você ser um bom programador precisa ter
 <br>
 
 - **Inglês** // SIM! É obrigatório! Ou você programa em Português?
-- **Lógica** // Tanto a de Programação como Matem4tica
+- **Lógica** // Tanto a de Programação como Matemática
 
 <br><br>
 
-> **Duvido você encontrar algum programador FOD4 que nao tenha esses 2.**
+> **Duvido você encontrar algum programador FODA que nao tenha esses 2.**
 
 <br><br>
 
 Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
 <br> de como resolver problemas baseando-se em seus conceitos e 
-<br> isso serve para qualquer 4rea da sua vida.
+<br> isso serve para qualquer área da sua vida.
 
 <br>
 
@@ -224,7 +224,7 @@ Entao qualquer número par não pode...
 <br>
 <br>
 
-> TE ENG4NEI! 
+> TE ENGANEI! 
 > Nem todos.
 
 <br>
@@ -309,7 +309,7 @@ Podemos iniciar pela maior divisão inteira de algo.
 <br>
 <br>
 
-> \- **WTF tio Suiss4?!!**
+> \- **WTF tio Suissa?!!**
 
 <br>
 <br>
@@ -512,7 +512,7 @@ function isPrime(num) {
 
 <hr>
 
-### λRefatorando.(4 solução)
+### λRefatorando.(A solução)
 
 
 Vamos iniciar com nosso código anterior para que possamos analisar quais partes <br>
@@ -623,7 +623,7 @@ if ( isEvenAndNot2( num ) || hasIntegerSquareRoot( num ) )
 
 Você deve ter percebido que não usei o **`is`** na função `hasIntegerSquareRoot`<br>
 como é usado na `isEvenAndNot2` e na função nativa [isInteger](http://mdn.io/isInteger),<br> 
-pois sigo um conceito que tento aplicar o m4ximo possível nos meus códigos, que é a...
+pois sigo um conceito que tento aplicar o máximo possível nos meus códigos, que é a...
 
 ![](http://i.imgur.com/oXyfZOa.png)
 
@@ -646,10 +646,10 @@ Eu acredito que para **Programação Funcional** é mais importante ainda pois e
 
 <br><br>
 
-Logo para que você descreva algo necessariamente precisa da sem4ntico, pois é ela que dará<br> 
+Logo para que você descreva algo necessariamente precisa da semântico, pois é ela que dará<br> 
 sentido aos nomes que você escolhe para suas constantes e funções.
 
-Como estamos aprendendo baseando-se nos conceitos b4sicos precisamos entender essa diferença<br>
+Como estamos aprendendo baseando-se nos conceitos básicos precisamos entender essa diferença<br>
 entre esses dois nomes utilizando, obviamente, seus conceitos.
 
 <br><br>
@@ -678,7 +678,7 @@ o que É esse *algo*.
 
 <br><br>
 
-> Será que ficou clara essa parte sobre a sem4ntica dos nomes das funções?
+> Será que ficou clara essa parte sobre a semântica dos nomes das funções?
 
 <br>
 
@@ -688,7 +688,7 @@ o que É esse *algo*.
 
 <br><br><br>
 
-### λRefatoraç4o.λContinuaçao.(ainda tem aula pacas) 
+### λRefatoração.λContinuaçao.(ainda tem aula pacas) 
 
 <br>
 <br>
@@ -710,7 +710,7 @@ if ( isEvenAndNotTwo( num ) ||
 
 <br>
 
-Continuando nessas funções, porém agora nas suas definições l4 no início do código.
+Continuando nessas funções, porém agora nas suas definições lá   no início do código.
 
 ```js
 
@@ -725,7 +725,7 @@ const isEvenAndNotTwo = ( num ) =>
 
 <br>
 
-Podemos retirar o `true` e `false` pois o próprio teste lógico retornar4 isso.
+Podemos retirar o `true` e `false` pois o próprio teste lógico retornará isso.
 
 ```js
 
@@ -740,7 +740,7 @@ const hasIntegerSquareRoot = ( num ) =>
 <br>
 
 Depois disso nos sobrou separar o teste da divisão o qual precisamos tomar cuidado<br>
-para ñ fazer merda, pois precisamos ajeitar o contado do `for` que est4 assim:
+para ñ fazer merda, pois precisamos ajeitar o contado do `for` que está assim:
 
 ```js
 
