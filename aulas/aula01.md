@@ -49,15 +49,18 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 <br>
-##Aula 1 - Validar se um número é primo
+
+##Problema - validar se um número é primo
 
 <br>
 <br>
 <br>
+
 ![](https://i.ytimg.com/vi/21fYY_RqSmI/hqdefault.jpg)
 
 <br>
 <br>
+
 Você deve estar pensando:
 
 
