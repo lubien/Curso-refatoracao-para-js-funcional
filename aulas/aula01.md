@@ -416,9 +416,16 @@ Vamos analisar como ela funciona.
 
 ```
 
+<br>
+
 > **Agora ficou fácil não?**
 
-Se um número tem uma **raíz inteira** isso significa que ele é divisível por outro número menor do que a metade dele.
+<br>
+
+Se um número tem uma **raíz inteira** isso significa que ele é 
+<br>divisível por outro número menor do que a metade dele.
+
+<br>
 
 Podemos então adicionar essa regra no nosso código:
 
