@@ -2,7 +2,7 @@
 
 <br>
 
-Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
+Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** não tenha ouvido falar, 
 o que acho **muito** difícil.
 
 <br>
@@ -129,21 +129,21 @@ Pego o número e testo se a divisao dele por TODOS seus
 antecessores, menos o 1, se o resto for 0 em algum momento
 é pq esse número tem divisor entre ele e o 1,
 
-Logo ñ é primo!
+Logo não é primo!
 
-Se ñ achar nenhum é primo!
+**Se não achar nenhum é primo!**
 
 ```
 <br>
 
-Esse é um padr4o que **SEMPRE** uso nas minhas funções de teste/validaç4o.
+Esse é um padrão que **SEMPRE** uso nas minhas funções de teste/validação.
 Quando vamos testar se alguma coisa é algo esse teste só **deve** retornar `true` ou `false`.
 
 
 ##### λLembrete 2
 
-Por isso eu deixo todos os testes que **invalidem** o que queremos testar no topo para que a última
-coisa que esse teste faça é retornar `true`.
+Por isso eu deixo todos os testes que **invalidem** o que queremos testar no topo para que a última coisa que esse teste faça é retornar `true` porque se ele passou pela bateria de testes nós garantimos que aquele valor é realmente o que queremos.
+
 
 
 
@@ -174,20 +174,21 @@ Para um número ser par ele precisa ser o que?
 
 <br><br>
 
-Entao QQUER número par ...
+Entao qualquer número par não pode...
 
 
 <br>
 <br>
 <br>
 
-> \- **Ñ pode ser primo!**
+> \- **não pode ser primo!**
 
 ![](http://cs319426.vk.me/v319426206/9e01/-Vmg1dwhz5c.jpg)
 
 <br>
 <br>
 
+> TE ENG4NEI! 
 > Nem todos.
 
 <br>
@@ -200,7 +201,7 @@ Pense comigo:
 
 <br>
 
-Levando isso em consideração já temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
+Levando isso em consideração já temos nossa primeira regra de validação e não apenas de validação, me acompanhe.
 
 Se formormos testar dois números para isso:
 
@@ -240,26 +241,44 @@ function isPrime(num) {
 <br>
 **Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:**
 <br>
+
 > O que podemos fazer para otimizar nossa função???
+
 <br>
+
 Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
+
 <br>
+
 Táaaaa não começarei com a Matemática (sua linda) agora, então pense que é um Array
 de 10.000 números, do 10.002 até o 2.
+
 <br>
 > Com certeza podemos diminuir esse *Array* não???
+
 <br>
+
 Podemos iniciar pela maior divisão inteira de algo.
+
 <br>
+
 > Se vocé pegar um Array de 10 elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
+
 <br><br>
+
 **Logicamente dividir ele por 2. Correto?**
+
 <br><br>
+
 Então perceba comigo que você dividiu ALGO pelo menor inteiro possível de se 
 dividir, `2`. Logo se você dividiu o TODO em 2 partes essas são as maiores possíveis.
+
 <br>
+
 > Por que você acha que cheguei nesse ponto???
+
 <br><br>
+
 Vamos lá, me acompanhe:
 
 ```
@@ -505,7 +524,7 @@ if ( isEvenAndNot2( num ) ||
 ```
 <br>
 
-Você deve ter percebido que ñ usei o `is` na func4o `hasIntegerSquareRoot` como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger), esse é um conceito que tento aplicar o m4ximo possível nos meus 
+Você deve ter percebido que não usei o `is` na func4o `hasIntegerSquareRoot` como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger), esse é um conceito que tento aplicar o m4ximo possível nos meus 
 códigos que é a **semantica**
 
 <br>
