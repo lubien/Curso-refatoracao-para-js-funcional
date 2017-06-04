@@ -148,7 +148,7 @@ coisa que esse teste faça é retornar `true`.
 
 
 <br>
-Vejamos isso em JS comum:
+Vejamos isso em JS imperativo:
 
 ```js
 
@@ -166,7 +166,7 @@ function isPrime(num) {
 
 ```
 <br>
-Logo isso nos remete a outros 2 conceitos numéricos, **um número pode ser par ou ímpar**, correto???
+Logo isso nos remete a outros dois conceitos numéricos, **um número pode ser par ou ímpar**, correto???
 
 Para um número ser par ele precisa ser o que?
 <br><br>
@@ -192,11 +192,17 @@ Entao QQUER número par ...
 
 <br>
 
-Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
+Pense comigo: 
+
+> O 2 é divisível por ele e por 1. 
+> Logo **ele tb é primo!**
+
+
+<br>
 
 Levando isso em consideração já temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
 
-Se formormos testar 2 números para isso:
+Se formormos testar dois números para isso:
 
 - 10.002
 - 10.003
