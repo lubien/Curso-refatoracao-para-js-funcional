@@ -972,7 +972,7 @@ tera que explicar o porquê ela fez mais sentido para o seu contexto.
 
 <br> 
 
-## Conclusão
+## λConclusão
 
 Antes de finalizarmos essa aula quero lhe perguntar algo:
 
@@ -1003,10 +1003,11 @@ pedidos e o que entendeu sobre.
 
 <br> 
 
-#### Pesquisa
+#### λPesquisa
 
-Disserte sobre o conceito de **transparência referencial**, de como é utilizada<br>
-e como ela agrega com outros conceitos que você com certeza irá encontrar quando pesquisar.
+Disserte sobre o conceito de **transparência referencial**,<br> 
+de como é utilizada e como ela agrega com outros conceitos<br> 
+que você com certeza irá encontrar quando pesquisar.
 
 <br>
 
@@ -1019,16 +1020,16 @@ e como ela agrega com outros conceitos que você com certeza irá encontrar quan
 
 <br>
 
-Se você já sabe entao tem menos trabalho para escrever o que entendeu disso
-e com alguns exemplos para corroborar sua ideia.
+Se você já sabe, entao terá menos trabalho para fazer esse exercício<br>
+e não esqueça de colocar exemplos que defendam sua ideia.
 
-#### Refatoração
+#### λRefatoração
 
-Use um código seu ou procure na Internet podendo ser **QUALQUER** cálculo
-que possua um *loop* pelo menos. 
+Use um código seu ou procure na Internet podendo ser **QUALQUER**<br> 
+cálculo que possua um *loop* pelo menos. 
 
 Coloque ele como enunciado do exercício e logo após o seu código refatorado.
-
+<br>
 **POR FAVOR SIGA ESSE PADRÃO**
 
 <hr>
@@ -1055,3 +1056,11 @@ Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 
 ```
 
+## λAviso.(MUITO IMPORTANTE)
+
+### Fiz essa aula com um exemplo matemático para que você
+### abstraia todos esses conceitos que passei e
+### consiga implementa-los futuramente
+
+### Se querem ver códigos reais por favor mandem os seus
+### na sua ISSUE para que eu possa analisar.
