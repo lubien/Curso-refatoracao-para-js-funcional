@@ -111,7 +111,7 @@ Eu acredito, IMHO, que para você ser um bom programador precisa ter
 
 <br><br>
 
-> **Duvido você encontrar algum programador FODA que nao tenha esses 2.**
+> **Duvido você encontrar algum programador FODA que não tenha esses 2.**
 
 <br><br>
 
@@ -888,7 +888,7 @@ const isPrime = ( num ) =>
 
 ### λTécnica.(arrow function)
 
-Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora ainda nao entrarei em maiores detalhes pois você só vera ela daqui para frente
+Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora ainda não<br> entrarei em maiores detalhes pois você só verá ela daqui para frente.
 
 No código acima transformamos ela em uma função que eu gosto de <br>
 chamar de: *one line function*.
