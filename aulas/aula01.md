@@ -969,7 +969,7 @@ tera que explicar o porquê ela fez mais sentido para o seu contexto.
 > Nesse curso você tera total liberdade de *codar* diferente do definido, só tera<br>
 > que explicar o porquê e essa explicaçao **DEVE** ser melhor que a minha.
 
-
+<br> 
 
 ## Conclusão
 
@@ -990,16 +990,36 @@ com os mesmos parâmetros chama-se: **Transparência Referencial**
 Porém nós ñ vimos nada sobre **transparência referencial** ainda e fiz isso<br>
 exatamente para passar como exercício.
 
+<br> 
 <hr>
 
 ### λExercício
 
-Nessa aula teremos dois exercícios diferentes.
+Nessa aula teremos dois tipos de exercícios.
+
+Na Pesquisa você deverá dissertar sobre os assuntos<br> 
+pedidos e o que entendeu sobre.
+
+<br> 
 
 #### Pesquisa
 
 Disserte sobre o conceito de **transparência referencial**, de como é utilizada<br>
-e como ela agrega com outros conceitos que você com certeza ira encontrar quando pesquisar.
+e como ela agrega com outros conceitos que você com certeza irá encontrar quando pesquisar.
+
+<br>
+
+![](http://www.cprogramming.com/c++11/lambda.png)
+
+<br>
+<br>
+
+> Você sabe o que é significa essa letra grega acima?
+
+<br>
+
+Se você já sabe entao tem menos trabalho para escrever o que entendeu disso
+e com alguns exemplos para corroborar sua ideia.
 
 #### Refatoração
 
