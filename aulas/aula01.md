@@ -822,6 +822,98 @@ const isPrime = ( num ) => {
 
 ```
 
+<br>
+
+Obviamente você ja sabe o que devemos fazer na sequência, né?
+
+<br>
+
+> \- **Claro pow!** Agrupar `hasDivisor` no `if` acima, desse jeito:
+
+<br>
+
+```js
+
+const isPrime = ( num ) => { 
+
+  if ( isEvenAndNotTwo( num ) || 
+      hasIntegerSquareRoot( num ) ||
+      hasDivisor( num ) )
+    return false
+    
+  return true
+}
+
+```
+
+<br>
+
+> Examente!!! Entretanto ainda podemos refatorar para isso:
+
+```js
+
+const isPrime = ( num ) => { 
+  // Se nós temos 2 retornos podemos
+  // retornar com um IF ternario
+  return ( isEvenAndNotTwo( num ) || 
+          hasIntegerSquareRoot( num ) ||
+          hasDivisor( num ) )
+            ? false
+            : true
+}
+
+```
+
+<br>
+<br>
+
+**Deixei o melhor para o final**
+
+<br>
+<br>
+
+```js
+
+const isPrime = ( num ) => 
+  ( isEvenAndNotTwo( num ) || 
+    hasIntegerSquareRoot( num ) ||
+    hasDivisor( num ) )
+      ? false
+      : true
+
+```
+
+<br>
+
+
+### Técnica - arrow function
+
+Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora ainda nao entrarei em maiores detalhes pois você só vera ela daqui para frente
+
+No código acima transformamos ela em uma função que eu gosto de <br>
+chamar de: *one line function*.
+
+Pois nós só conseguimos retirar o `return` de `isPrime` porque ela<br>
+**"possui apenas uma linha que ja esta sendo retornada"**
+
+
+[![](http://i.imgur.com/VZxtCya.png)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+
+<br>
+<br>
+
+**Entrarei em maiores detalhes sobre isso na próxima aula.**
+
+
+<br>
+<br>
+
+### Técnica - if ternario
+
+
+## Conclusao
+
 Antes de finalizarmos essa aula quero lhe perguntar algo:
 
 <br>
@@ -833,12 +925,24 @@ O conceito de sempre produzir o mesmo resultado<br>
 com os mesmos parâmetros chama-se: **Transparência Referencial**
 
 
-
 > "Uma função é considerada pura se possui transparência referencial e é livre de efeitos colaterais."
+
+
+Porém nós ñ vimos nada sobre **transparência referencial** ainda e fiz isso<br>
+exatamente para passar como exercício.
 
 <hr>
 
 ### λExercício
+
+Nessa aula teremos dois exercícios diferentes.
+
+#### Pesquisa
+
+Disserte sobre o conceito de **transparência referencial**, de como é utilizada<br>
+e como ela agrega com outros conceitos que você com certeza ira encontrar quando pesquisar.
+
+#### Refatoração
 
 Use um código seu ou procure na Internet podendo ser **QUALQUER** cálculo
 que possua um *loop* pelo menos. 

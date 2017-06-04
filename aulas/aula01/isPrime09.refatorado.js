@@ -25,7 +25,7 @@ const isPrime = ( num ) => {
   // retornar com um IF ternario
   return ( isEvenAndNotTwo( num ) || 
           hasIntegerSquareRoot( num ) ||
-          hasDivisor( num, i ) )
+          hasDivisor( num ) )
             ? false
             : true
 }
