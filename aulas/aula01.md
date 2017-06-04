@@ -52,23 +52,40 @@ Logo m4is você ir4 entender o porquê.
 
 <hr>
 
-## Problema - validar se um número é primo
-
-<br>
-<br>
-<br>
-
 ![](https://i.ytimg.com/vi/21fYY_RqSmI/hqdefault.jpg)
 
 <br>
 <br>
+<br>
 
-Você deve estar pensando:
+## Problema - validar se um número é primo
 
+<br>
+<br>
+
+**Você deve estar pensando:**
 
 <br>
 
-> L4 vem o Suissa com esse papo de Matem4tica, pqp!
+> **L4 vem o Suissa com esse papo de Matem4tica, pqp!**
+
+<br>
+
+![](http://geradormemes.com/media/created/xecy3i.jpg)
+
+<br>
+<br>
+
+
+Eu acredito, IMHO, que para você ser um bom programador precisa ter no mínimo 2 coisas que n4o 
+s4o discutíveis:
+
+- Inglês // SIM! É obrigatório! Ou você programa em Português?
+- Lógica // Tanto a de Programaçao como Matem4tica
+
+<br>
+
+> **Dúvido você encontrar algum programador **FOD4** que nao tenha esses 2.**
 
 <br>
 
