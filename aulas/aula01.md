@@ -23,8 +23,9 @@ Creio que sua própria definição diz tudo:
 <br>
 <br>
 
-Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional  
-<br> caso você **ainda** não tenha ouvido falar, o que acho **muito** difícil.
+Após o devido aviso venho por meio desta apresentar-lhe <br> 
+a Programação Funcional caso você **ainda** não tenha <br>  
+ouvido falar, o que acho **muito** difícil.
 
 <br>
 
@@ -35,8 +36,10 @@ dados mutáveis. Ela enfatiza a aplicação de funções, em <br>
 contraste da programação imperativa, que enfatiza mudanças <br>
 no estado do programa.
 
-> A definição de uma função descreve como a função será 
-avaliada em termos de outras funções. 
+<br>
+
+> A definição de uma função descreve como a função<br> 
+será avaliada em termos de outras funções. 
 
 *fonte: [(https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
 
@@ -81,7 +84,7 @@ Logo mais você irá entender o porquê.
 <br>
 <hr>
 
-## λProblema.(Validar se um número é primo)
+## λProblema.(validar se um número é primo)
 
 <br>
 <br>
@@ -167,7 +170,8 @@ Logo não é primo!
 <br>
 
 Esse é um padrão que **SEMPRE** uso nas minhas funções de teste/validação.
-Quando vamos testar se alguma coisa é algo esse teste só **deve** retornar `true` ou `false`.
+Quando vamos testar <br>
+se alguma coisa é algo esse teste só **deve** retornar `true` ou `false`.
 
 
 ##### λLembrete 2
@@ -512,7 +516,7 @@ function isPrime(num) {
 
 <hr>
 
-### λRefatorando.(A solução)
+### λRefatorando.(solução) 2
 
 
 Vamos iniciar com nosso código anterior para que possamos analisar quais partes <br>
