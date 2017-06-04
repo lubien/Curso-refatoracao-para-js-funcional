@@ -3,6 +3,7 @@
 <br>
 
 Primeiramente venho por meio desta apresentar-lhe a 
+
 Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
 o que acho **muito** difícil.
 
