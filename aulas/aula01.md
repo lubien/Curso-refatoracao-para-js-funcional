@@ -80,22 +80,29 @@ Logo m4is você ir4 entender o porquê.
 Eu acredito, IMHO, que para você ser um bom programador precisa ter no mínimo 2 coisas que n4o 
 s4o discutíveis:
 
-- Inglês // SIM! É obrigatório! Ou você programa em Português?
-- Lógica // Tanto a de Programaçao como Matem4tica
+- **Inglês // SIM! É obrigatório! Ou você programa em Português?**
+- **Lógica // Tanto a de Programaçao como Matem4tica**
 
 <br>
 
-> **Dúvido você encontrar algum programador **FOD4** que nao tenha esses 2.**
-
-<br>
-
-Vamos imPreciso testar se os números 10.002 e 10.003 s4o primos.
+> **Duvido você encontrar algum programador **FOD4** que nao tenha esses 2.**
 
 <br>
 
 
-Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, 
-os quais vc consegue ler e já entender.
+
+Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma de como resolver problemas 
+baseando-se em seus conceitos e isso serve para qualquer 4rea da sua vida.
+
+
+**O nosso problema é t4o simples que só precisamos testar se os números 10.002 e 10.003 s4o primos.**
+
+<br>
+
+
+> Eu **SEMPRE** inicio meu pensamento para solucionar algo pelos conceitos envolvidos.
+
+<br>
 
 Exemplo:
 
