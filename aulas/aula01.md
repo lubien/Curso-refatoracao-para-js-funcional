@@ -549,7 +549,8 @@ function isPrime(num) {
 <br>
 
 Nosso próximo passo é retirar as funções que compõe <br>
-o comportamento da função principal `isPrime`:
+o comportamento da função principal `isPrime`. Pois quando escrevemos uma função<br> 
+**ela deve fazer uma, e apenas uma coisa**. 
 
 <br>
 
@@ -757,6 +758,42 @@ for ( i; i >= 2; i-- ) {
 <br>
 <br>
 
+Se você ainda ñ **inferiu** o problema eu vou lhe contar sobre outro conceito de PF, chamado<br>
+de **[efeitos colaterais](https://en.wikipedia.org/wiki/Side_effect_(computer_science))**
+
+<br>
+<br>
+
+Esse conceito é simples porém bem importante para sua sanidade e do seu projeto.
+Vejamos o que a Wikipedia nos diz:
+
+> In computer science, a function or expression is said to have a side effect if it modifies some state outside its scope or has an observable interaction with its calling functions or the outside world besides returning a value. For example, a particular function might modify a global variable or static variable, modify one of its arguments, raise an exception, write data to a display or file, read data, or call other side-effecting functions. 
+
+<br>
+<br>
+
+Quero que você se foque nessa parte:
+
+> "...**have a side effect if it modifies some state outside its scope**..."
+
+<br>
+<br>
+
+Pois agora irei lhe mostrar onde esta esse famigerado "efeito colateral"<br>
+no nosso código.
+
+```js
+
+let i = Math.ceil( num / 2 )
+for ( i; i >= 2; i-- ) {
+ // ... 
+}
+
+```
+
+Nosso problema aí é que o `i` existe apenas fora do contexto do `for`, porém seu valor
+é modificado internamente no `for`, ou seja, modifica algo fora do seu escopo, porém<br>
+para corrigir isso é bem simples, basta colocarmos o `i` dentro do `for`.
 
 ```js
 

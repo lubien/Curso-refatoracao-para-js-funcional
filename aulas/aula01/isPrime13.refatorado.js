@@ -2,6 +2,8 @@ const isNot = ( x ) => !x
 const even = ( num ) => ( num % 2 )
 const halfOf = ( num ) => Math.ceil( num / 2 )
 const disibleBy = ( num ) => ( i ) => isNot( num % i )
+const squareRootOf = ( num ) => Math.sqrt( num )
+const isInteger = ( num ) => Number.isInteger( num )
 
 const hasDivisor = ( num ) => {
   const isDisibleBy = disibleBy( num )
@@ -13,8 +15,6 @@ const hasDivisor = ( num ) => {
   return false
 }
 
-const squareRootOf = ( num ) => Math.sqrt( num )
-const isInteger = ( num ) => Number.isInteger( num )
 const hasIntegerSquareRoot = ( num ) => 
   ( isInteger( squareRootOf( num ) ) )
 
