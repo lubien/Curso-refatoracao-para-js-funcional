@@ -66,7 +66,7 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 
-> **L4 vem o Suissa com esse papo de Matem4tica, pqp!**
+> \- **L4 vem o Suissa com esse papo de Matem4tica, pqp!**
 
 <br>
 
@@ -157,8 +157,10 @@ Logo isso nos remete a outros 2 conceitos numéricos, **um número pode ser par 
 
 Para um número ser par ele precisa ser o que?
 <br><br>
-> **Ser divisível por 2!**
+> \- **Ser divisível por 2!**
+
 <br><br>
+
 Entao QQUER número par ...
 
 
@@ -166,7 +168,7 @@ Entao QQUER número par ...
 <br>
 <br>
 
-> **Ñ pode ser primo!**
+> \- **Ñ pode ser primo!**
 
 ![](http://cs319426.vk.me/v319426206/9e01/-Vmg1dwhz5c.jpg)
 
