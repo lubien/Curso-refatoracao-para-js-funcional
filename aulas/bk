@@ -1,0 +1,123 @@
+
+O algoritmo mais basico que aprendemos na faculdade é o de 
+testar uma idade.
+
+Mais facil mostrar do que falar:
+
+```js
+
+var idade = 19
+
+if ( idade >= 18 )
+  return "Eh maior de idade"
+else
+  return "Eh menor de idade"
+
+```
+
+Pense comigo:
+
+> Quando vc testa algo qual a resposta que vc espera?
+
+> **Se é verdadeiro ou falso.**
+
+```js
+
+const idade = 19
+
+const ehMaior = ( idade ) => idade >= 18 
+
+ehMaior( idade )
+  ? "Eh maior de idade"
+  : "Eh menor de idade"
+
+```
+
+```js
+
+const idade = 19
+
+const ehMaior = ( idade ) => idade >= 18 
+const escreveEhMaior = () => "Eh maior de idade"
+const escreveEhMenor = () => "Eh menor de idade"
+
+ehMaior( idade )
+  ? escreveEhMaior()
+  : escreveEhMenor()
+
+```
+
+> Sabe por que dessa forma é melhor??
+
+> Simples, mostrarei com código!
+
+Vamos pensar que precisamos testar a idade de um grupo de pessoas:
+
+```js
+
+const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
+
+const ehMaior = ( idade ) => idade >= 18 
+const escreveEhMaior = () => "Eh maior de idade"
+
+const maiores = idades.filter( ehMaior )
+
+console.log( escreveEhMaior(), maiores.join(', ') )
+
+```
+
+E agora no modo imperativo:
+
+```js
+const escreveEhMaior = () => "Eh maior de idade"
+
+const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
+let maiores = []
+
+for (let i = 0; i < idades.length; i++ ) {
+  if ( idades[ i ] >= 18 ) 
+    maiores.push( idades[ i ] )
+}
+
+console.log( escreveEhMaior(), maiores.join(', ') )
+
+```
+
+> Percebeu qual o problema com o código acima mesmo ele 
+>dando o mesmo resultado?
+
+Fora que podemos refatorar nosso código para deixa-lo mais 
+genérico para que possa ser reusado em outros contextos, por exemplo:
+
+
+```js
+
+const ages = [ 4, 5, 8, 17, 18, 19, 666 ]
+
+const not = ( something ) => ! something
+const isBiggerThan = ( y, not ) => ( x ) => 
+  ( not ) ? not( x > y ) : x > y
+
+const isBiggerThan8 = isBiggerThan( 8 )
+const isLowerThan8 = isBiggerThan( 8, not )
+const bigger = ages.filter( isBiggerThan8 )
+const lower = ages.filter( isLowerThan8 )
+
+console.log( bigger )
+// [ 17, 18, 19, 666 ]
+console.log( lower )
+// [ 4, 5, 8 ]
+
+```
+<br>
+> Percebeu a malandragem???
+<br>
+Fiz apenas como exemplo, pois normalmente nao fazemos a 
+negaçao dessa forma. Entao aguarde que ainda chegaremos la!
+
+Depois de saber disso vou demonstrar como pensar em reduzir um 
+problema q pode até parecer simples, como a validaçao de um 
+número primo.
+
+<br>
+<br>

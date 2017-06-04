@@ -1,14 +1,22 @@
-## Aula 1 - Como solucionar um problema
+# Aula 1 - Como solucionar um problema
 
 <br>
 
-Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** ñ tenha ouvido falar, o que acho **muito** difícil.
+Primeiramente venho por meio desta apresentar-lhe a 
+Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
+o que acho **muito** difícil.
 
 <br>
 
-> Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa.
+> Em ciência da computação, programação funcional é um 
+paradigma de programação que trata a computação como uma 
+avaliação de funções matemáticas e que evita estados ou 
+dados mutáveis. Ela enfatiza a aplicação de funções, em 
+contraste da programação imperativa, que enfatiza mudanças 
+no estado do programa.
 
-> A definição de uma função descreve como a função será avaliada em termos de outras funções. 
+> A definição de uma função descreve como a função será 
+avaliada em termos de outras funções. 
 
 *fonte: [](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
 <br>
@@ -20,7 +28,8 @@ Por exemplo:
 f(x) = x^2 + 2
 
 ```
-Ela definida em termos de funções de exponenciação e adição. Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
+Ela definida em termos de funções de exponenciação e adição. 
+Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
 
 ##### Lembrete 01
 
@@ -38,128 +47,20 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 
-### Funções
+## Aula 1 - Validar se um número é primo
 
-O algoritmo mais basico que aprendemos na faculdade é o de testar uma idade.
-
-Mais facil mostrar do que falar:
-
-```js
-
-var idade = 19
-
-if ( idade >= 18 )
-  return "Eh maior de idade"
-else
-  return "Eh menor de idade"
-
-```
-
-Pense comigo:
-
-> Quando vc testa algo qual a resposta que vc espera?
-
-> **Se é verdadeiro ou falso.**
-
-```js
-
-const idade = 19
-
-const ehMaior = ( idade ) => idade >= 18 
-
-ehMaior( idade )
-  ? "Eh maior de idade"
-  : "Eh menor de idade"
-
-```
-
-```js
-
-const idade = 19
-
-const ehMaior = ( idade ) => idade >= 18 
-const escreveEhMaior = () => "Eh maior de idade"
-const escreveEhMenor = () => "Eh menor de idade"
-
-ehMaior( idade )
-  ? escreveEhMaior()
-  : escreveEhMenor()
-
-```
-
-> Sabe por que dessa forma é melhor??
-
-> Simples, mostrarei com código!
-
-Vamos pensar que precisamos testar a idade de um grupo de pessoas:
-
-```js
-
-const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
-
-const ehMaior = ( idade ) => idade >= 18 
-const escreveEhMaior = () => "Eh maior de idade"
-
-const maiores = idades.filter( ehMaior )
-
-console.log( escreveEhMaior(), maiores.join(', ') )
-
-```
-
-E agora no modo imperativo:
-
-```js
-const escreveEhMaior = () => "Eh maior de idade"
-
-const idades = [ 4, 5, 8, 17, 18, 19, 666 ]
-let maiores = []
-
-for (let i = 0; i < idades.length; i++ ) {
-  if ( idades[ i ] >= 18 ) 
-    maiores.push( idades[ i ] )
-}
-
-console.log( escreveEhMaior(), maiores.join(', ') )
-
-```
-
-> Percebeu qual o problema com o código acima mesmo ele dando o mesmo resultado?
-
-Fora que podemos refatorar nosso código para deixa-lo mais genérico para que possa ser reusado em outros contextos, por exemplo:
-
-
-```js
-
-const ages = [ 4, 5, 8, 17, 18, 19, 666 ]
-
-const not = ( something ) => ! something
-const isBiggerThan = ( y, not ) => ( x ) => 
-  ( not ) ? not( x > y ) : x > y
-
-const isBiggerThan8 = isBiggerThan( 8 )
-const isLowerThan8 = isBiggerThan( 8, not )
-const bigger = ages.filter( isBiggerThan8 )
-const lower = ages.filter( isLowerThan8 )
-
-console.log( bigger )
-// [ 17, 18, 19, 666 ]
-console.log( lower )
-// [ 4, 5, 8 ]
-
-```
-
-> Percebeu a malandragem???
-
-Fiz apenas como exemplo, pois normalmente nao fazemos a negaçao dessa forma. Entao aguarde que ainda chegaremos la!
-
-Depois de saber disso vou demonstrar como pensar em reduzir um problema q pode até parecer simples, como a validaçao de um número primo
+![](https://i.ytimg.com/vi/21fYY_RqSmI/hqdefault.jpg)
 
 <br>
+Você deve estar pensando:
+
+
+<br>
+> L4 vem o Suissa com esse papo de Matem4tica, pqp!
+
 <br>
 
-### Aula 1 - Resolvendo um problema
-
-Preciso testar se os números 10.002 e 10.003 s4o primos.
+Vamos imPreciso testar se os números 10.002 e 10.003 s4o primos.
 
 <br>
 
