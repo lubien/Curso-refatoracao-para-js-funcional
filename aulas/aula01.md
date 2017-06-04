@@ -367,7 +367,7 @@ Antes de lhe responder vou te lembrar de algo.
 <br>
 <br>
 
-Mais fácil eu demontrar ela:
+Mais fácil eu demonstrar ela:
 
 ```
 
@@ -391,12 +391,18 @@ Sabendo que a divisão é a operação inversa da multiplicação, podemos entã
 
 
 ![](https://media0.giphy.com/media/l41YvrjGiI4cCJZPW/giphy.gif)
+
+<br>
+<br>
 <br>
 <br>
 
-> **EXATAMENTE!** A [radiciação](https://pt.wikipedia.org/wiki/Radicia%C3%A7%C3%A3o).
+> **EXATAMENTE!** A [radiciação](https://pt.wikipedia.org/wiki/Radicia%C3%A7%C3%A3o) também conhecida como raíz.
 
-Vamos analisar então como ela funciona.
+<br>
+<br>
+
+Vamos analisar como ela funciona.
 
 ```
 
