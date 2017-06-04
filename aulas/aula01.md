@@ -657,14 +657,13 @@ entre esses dois nomes utilizando, obviamente, seus conceitos.
 
 *fonte: [https://www.dicio.com.br/tem/](https://www.dicio.com.br/tem/)*
 
-<br><br>
+<br>
 
 > "É vem do verbo ser. O mesmo que: acontece, está, existe, subsiste, sucede."
 
 *fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)*
 
-
-<br>
+<br><br>
 
 > Agora ficou fácil de **inferir** o porquê dos nomes `hasIntegerSquareRoot` e `isEvenAndNot2`?
 
