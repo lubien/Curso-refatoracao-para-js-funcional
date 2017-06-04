@@ -725,7 +725,7 @@ const isEvenAndNotTwo = ( num ) =>
 
 <br>
 
-Podemos retirar o `true` e `false` pois o próprio teste lógico retornara isso.
+Podemos retirar o `true` e `false` pois o próprio teste lógico retornará isso.
 
 ```js
 
