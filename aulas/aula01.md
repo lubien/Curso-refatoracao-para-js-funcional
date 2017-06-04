@@ -293,7 +293,7 @@ function isPrime(num) {
 <br>
 <br>
 
-Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
+Para clarear sua mente você pode imaginar todos esses números como um [CONJUNTO](https://pt.wikipedia.org/wiki/Conjunto)... 
 
 <br>
 
