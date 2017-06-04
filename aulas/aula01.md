@@ -352,9 +352,8 @@ Vamos lá, me acompanhe:
 
 <br>
 
-Caso você ainda não tenha inferido, vou lhe ajudar. 
+Caso você ainda não tenha **inferido**, vou lhe ajudar. 
 
-<br>
 <br>
 
 Podemos afirmar que:
@@ -365,6 +364,7 @@ Podemos afirmar que:
 
 *ps: nem precisamos pesquisar isso para saber que está certo, né?*
 
+<br>
 
 Adicionando essa regra no código imperativo:
 
@@ -387,6 +387,7 @@ function isPrime(num) {
 }
 
 ```
+
 <br>
 
 **Porém, entretanto, contudo, todavia, ainda devemos adicionar mais uma validação em cima da nossa lógica.**
@@ -679,7 +680,7 @@ o que É esse *algo*.
 
 > Será que ficou clara essa parte sobre a sem4ntica dos nomes das funções?
 
-<br><br>
+<br>
 
 <hr>
 
@@ -820,6 +821,20 @@ const isPrime = ( num ) => {
 }
 
 ```
+
+Antes de finalizarmos essa aula quero lhe perguntar algo:
+
+<br>
+
+> Você percebeu que **todas** nossas funções ñ possuem efeito colateral **e**<br>
+> além disso sempre produz o mesmo resultado quando dados os mesmos parâmetros.
+
+O conceito de sempre produzir o mesmo resultado<br>
+com os mesmos parâmetros chama-se: **Transparência Referencial**
+
+
+
+> "Uma função é considerada pura se possui transparência referencial e é livre de efeitos colaterais."
 
 <hr>
 
