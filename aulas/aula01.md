@@ -113,13 +113,13 @@ Exemplo:
 
 fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
 
-<br><br>
+<br>
 
 Com isso podemos inferir que:
 
 > Ele só é divisível por ele mesmo e por 1.
 
-<br><br>
+<br>
 
 Entao o algoritmo para sabermos isso eh BEM simples:
 
