@@ -18,7 +18,7 @@ no estado do programa.
 > A definição de uma função descreve como a função será 
 avaliada em termos de outras funções. 
 
-*fonte: [](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
+*fonte: [(https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
 <br>
 <br>
 Por exemplo:
@@ -56,9 +56,9 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 <br>
-<br>
+<hr>
 
-## λProblema.(Validar se um número é primo(
+## λProblema.(Validar se um número é primo)
 
 <br>
 <br>
@@ -154,12 +154,12 @@ function isPrime(num) {
 
 ```
 
-Logo isso nos remete a outros 2 conceitos numéricos, um número pode ser par ou ímpar, correto???
+Logo isso nos remete a outros 2 conceitos numéricos, **um número pode ser par ou ímpar**, correto???
 
 Para um número ser par ele precisa ser o que?
-
+<br>
 > **Divisível por 2!**
-
+<br>
 Entao QQUER número par ...
 
 
@@ -167,7 +167,7 @@ Entao QQUER número par ...
 <br>
 <br>
 
-> Ñ pode ser primo!
+> **Ñ pode ser primo!**
 
 
 > **Nopzzz!** Nem todos.
