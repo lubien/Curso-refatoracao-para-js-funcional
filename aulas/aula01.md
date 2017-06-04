@@ -394,13 +394,18 @@ function isPrime(num) {
 
 <br>
 
-**Porém, entretanto, contudo, todavia, ainda devemos adicionar mais uma validação em cima da nossa lógica.**
+**Porém, entretanto, contudo, todavia, ainda devemos adicionar mais**<br> 
+**uma validação em cima da nossa lógica.**
 
 <br>
 
-Para isso precisamos pensar em qual **operação matemática** pode nos fornecer uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso significa que esse todo é divisível.
+Para isso precisamos pensar em qual **operação matemática** pode nos fornecer<br> 
+uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso<br> 
+significa que esse todo é divisível.
 
-Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão, podemos **inferir** que o próximo passo, subindo um nível de complexidade, que podemos analisar é...???
+Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão,<br> 
+podemos **inferir** que o próximo passo, subindo um nível de complexidade,<br> 
+que podemos analisar é...???
 
 <br>
 
