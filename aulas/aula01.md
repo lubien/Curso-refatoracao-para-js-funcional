@@ -311,11 +311,12 @@ Vamos lá, me acompanhe:
 
 Caso você ainda não tenha inferido, nós podemos afirmar que:
 
+<br>
+
 > Um número **NUNCA** TEM UM DIVISOR INTEIRO QUE SEJA MAIOR QUE SUA METADE.
 
 *ps: nem precisamos pesquisar isso para saber que está certo, né?*
 
-<br><br>
 
 Adicionando essa regra no código imperativo:
 
