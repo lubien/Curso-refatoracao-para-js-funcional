@@ -659,11 +659,11 @@ Eu acredito que para **Programação Funcional** é mais importante ainda pois e
 
 <br><br>
 
-Logo para que você descreva algo necessariamente precisa da semântica, pois é ela que dará<br> 
-sentido aos nomes que você escolhe para suas constantes e funções.
+Logo para que você descreva algo necessariamente precisa da semântica,<br> 
+pois é ela que dará  sentido aos nomes que você escolhe para suas constantes e funções.
 
-Como estamos aprendendo baseando-se nos conceitos básicos precisamos entender essa diferença<br>
-entre esses dois nomes utilizando, obviamente, seus conceitos.
+Como estamos aprendendo baseando-se nos conceitos básicos precisamos entender<br> 
+essa diferença entre esses dois nomes utilizando, obviamente, seus conceitos.
 
 <br><br>
 
@@ -780,7 +780,13 @@ de **[efeitos colaterais](https://en.wikipedia.org/wiki/Side_effect_(computer_sc
 Esse conceito é simples porém bem importante para sua sanidade e do seu projeto.
 Vejamos o que a Wikipedia nos diz:
 
-> In computer science, a function or expression is said to have a side effect if it modifies some state outside its scope or has an observable interaction with its calling functions or the outside world besides returning a value. For example, a particular function might modify a global variable or static variable, modify one of its arguments, raise an exception, write data to a display or file, read data, or call other side-effecting functions. 
+> In computer science, a function or expression is said to have<br> 
+a side effect if it modifies some state outside its scope or has <br>
+an observable interaction with its calling functions or the outside<br> 
+world besides returning a value. For example, a particular function<br> 
+might modify a global variable or static variable, modify one of its<br> 
+arguments, raise an exception, write data to a display or file,<br> 
+read data, or call other side-effecting functions. 
 
 <br>
 <br>
