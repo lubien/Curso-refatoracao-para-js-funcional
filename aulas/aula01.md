@@ -325,9 +325,8 @@ as quais **sejam iguais e as maiores possíveis**.
 
 <br><br>
 
-Perceba comigo que se você dividir **ALGO** pelo menor inteiro possível, de se 
-dividir, `2`. Ent4o se você dividiu **ALGO** em duas partes iguais essas são<br> 
-necessariamente as maiores possíveis. Bem lógico, né?
+Perceba comigo que se você dividir **ALGO** pelo menor inteiro possível, de se dividir, o 2.<br>
+Ent4o se você dividiu **ALGO** em duas partes iguais essas são necessariamente as maiores<br> possíveis. Bem lógico, né?
 
 <br>
 
