@@ -544,10 +544,13 @@ function isPrime(num) {
 }
 
 ```
+
 <br>
 <br>
-Nosso próximo passo é retirar as funções que compõe o comportamento
- da função principal `isPrime`:
+
+Nosso próximo passo é retirar as funções que compõe <br>
+o comportamento da função principal `isPrime`:
+
 <br>
 
  ```js
@@ -576,8 +579,6 @@ const isPrime = ( num) => {
   // Começaremos as divisões a partir da sua metade
   for ( i; i >= 2; i-- ) {
     if( num % i === 0 ) {
-      console.log( '\n' )
-      console.log( num + ' é divisível por: ', i )
       return false
     }
   }
@@ -600,9 +601,6 @@ isPrime 3 true
 isPrime 4 false
 isPrime 100002 false
 isPrime 100003 true
-
-
-100007 é divisível por:  1031
 isPrime 100007 false
 
 
@@ -615,16 +613,15 @@ Se os dois testes, `isEvenAndNot2` e `hasIntegerSquareRoot`, retornam `false` <b
 podemos testa-los de uma só vez:
 
 ```js
-if ( isEvenAndNot2( num ) || 
-    hasIntegerSquareRoot( num ) )
+if ( isEvenAndNot2( num ) || hasIntegerSquareRoot( num ) )
   return false
 
 ```
 <br>
 
-Você deve ter percebido que não usei o `is` na func4o `hasIntegerSquareRoot`<br>
-como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger),<br>
-esse conceito tento aplicar o m4ximo possível nos meus códigos, que é a...
+Você deve ter percebido que não usei o **`is`** na função `hasIntegerSquareRoot`<br>
+como é usado na `isEvenAndNot2` e na função nativa [isInteger](http://mdn.io/isInteger),<br> 
+pois sigo um conceito que tento aplicar o m4ximo possível nos meus códigos, que é a...
 
 ![](http://i.imgur.com/oXyfZOa.png)
 
@@ -634,20 +631,30 @@ esse conceito tento aplicar o m4ximo possível nos meus códigos, que é a...
 > "...o componente do sentido das palavras..."
 <br>
 
-Eu acredito que para Programaç4o Funcional é mais importante ainda pois a ela é declarativa.
+Eu acredito que para **Programação Funcional** é mais importante ainda pois ela **é declarativa**.
+
 <br>
+
 > "... um programa é declarativo se descreve o que ele faz e não como seus procedimentos funcionam."
 
 *fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa]https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa()*
 
 <br><br>
 
-Logo para que você descreva algo necessariamente precisa ser sem4ntico
+Logo para que você descreva algo necessariamente precisa da sem4ntico, pois é ela que dar4<br> 
+sentido aos nomes que você escolhe para suas constantes e funções.
 
-[tem](https://www.dicio.com.br/tem/)
+Como estamos aprendendo baseando-se nos conceitos b4sicos precisamos entender essa diferença<br>
+entre esses dois nomes utilizando, obviamente, seus conceitos.
+
+> "Ação de ter; ato de receber ou de passar a possuir alguma coisa: ele tem uma casa; a empresa tem muitos funcionários."
+
+*fonte: [https://www.dicio.com.br/tem/](https://www.dicio.com.br/tem/)
 
 
-[É](https://www.dicio.com.br/e-4/) vem do verbo ser. O mesmo que: acontece, está, existe, subsiste, sucede.
+> "É vem do verbo ser. O mesmo que: acontece, está, existe, subsiste, sucede."
+
+*fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)
 
 
 <br>
