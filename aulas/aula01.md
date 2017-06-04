@@ -386,16 +386,32 @@ function isPrime(num) {
 ### Aula 1 - Refatorando a solução
 
 
+Vamos iniciar com nosso código anterior para que possamos analisar quais partes podem ser separadas, pois cada uma validação é um teste diferente, logo tem responsabilidades diferentes.
+
+Já iremos entender com o código:
+
 ```js
 
-const isPrime = ( n ) => { 
-  let c = n-1; 
-  
-  while( c-- ){ 
-    if( (n % c) === 0) return false
-   } 
-   return true 
- }
+function isPrime(num) { 
+  // se for par E não for 2
+  if ((num % 2) === 0 && num !== 2)
+    return false;
+
+  // Se um número tem uma **raíz inteira** 
+  // isso significa que ele é divisível
+  if (Number.isInteger(Math.sqrt(num)))
+    return false;
+
+  // Começaremosos as divisões a partir da sua metade
+  for (var i = Math.ceil(num / 2); i >= 2; i--) {
+    if(num % i === 0) {
+      console.log('\n')
+      console.log(num + ' é divisível por: ', i)
+      return false;
+    }
+  }
+  return true;
+}
 
 ```
 
@@ -408,7 +424,7 @@ que possua um *loop* pelo menos.
 
 Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 
-**POR FAVOR SIGA ESSE PADRAO**
+**POR FAVOR SIGA ESSE PADRÃO**
 
 
 

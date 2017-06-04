@@ -1,37 +1,33 @@
 // Retirando as funções qe compõe o comportmento
 // da função principal
 
-// se for par E não for 2
+// Podemos retirar o true e false pois
+// o próprio teste lógico nos retorna isso
 const isEvenAndNotTwo = ( num ) => 
   ( ( num % 2 ) === 0 && num !== 2 )
-    ? true
-    : false
 
-// Se um número tem uma **raíz inteira** 
-// isso significa que ele é divisível
 const hasIntegerSquareRoot = ( num ) => 
   ( Number.isInteger( Math.sqrt( num ) ) )
-    ? true
-    : false
 
-const isPrime = ( num) => { 
-
-  if ( isEvenAndNotTwo( num ) )
-    return false
-
-  if ( hasIntegerSquareRoot(num) )
-    return false
-  
-  let i = Math.ceil( num / 2 )
-  // Começaremos as divisões a partir da sua metade
-  for ( i; i >= 2; i-- ) {
-    if( num % i === 0 ) {
+const hasDivisor = ( num, i ) => {
+  for ( let i = Math.ceil( num / 2 ); i >= 2; i-- ) {
+    if( ( num % i ) === 0 ) {
       console.log( '\n' )
       console.log( num + ' é divisível por: ', i )
-      return false
+      return true
     }
   }
-  return true
+  return false
+}
+
+const isPrime = ( num ) => { 
+  // Se nós temos 2 retornos podemos
+  // retornar com um IF ternario
+  return ( isEvenAndNotTwo( num ) || 
+          hasIntegerSquareRoot( num ) ||
+          hasDivisor( num, i ) )
+            ? false
+            : true
 }
 
 console.log('isPrime 2', isPrime(2))

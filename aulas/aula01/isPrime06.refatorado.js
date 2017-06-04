@@ -18,7 +18,7 @@ const isPrime = ( num ) => {
     return false
 
   let i = Math.ceil( num / 2 )
-  // Começaremosos as divisões a partir da sua metade
+  // Começaremos as divisões a partir da sua metade
   for ( i; i >= 2; i-- ) {
     if( ( num % i ) === 0 ) {
       console.log( '\n' )

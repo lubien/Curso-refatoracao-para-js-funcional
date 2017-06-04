@@ -5,7 +5,7 @@ function isPrime(num) {
   if ((num % 2) === 0 && num !== 2)
     return false;
 
-  // Começaremosos as divisões a partir da sua metade
+  // Começaremos as divisões a partir da sua metade
   for (var i = Math.ceil(num / 2); i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
