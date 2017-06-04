@@ -262,7 +262,7 @@ Podemos iniciar pela maior divisão inteira de algo.
 
 <br>
 
-> Se vocé pegar um Array de 10 elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
+> Se vocé pegar um Array de dez elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
 
 <br><br>
 
@@ -282,14 +282,20 @@ dividir, `2`. Logo se você dividiu o TODO em 2 partes essas são as maiores pos
 Vamos lá, me acompanhe:
 
 ```
+
 10 / 9 = ehInteiro? false
 10 / 8 = ehInteiro? false
 10 / 7 = ehInteiro? false
 10 / 6 = ehInteiro? false
 10 / 5 = ehInteiro? true
+
 ```
 
+<br>
+
 > E agora ficou mais fácil de perceber???
+
+<br>
 
 Caso você ainda não tenha inferido, nós podemos afirmar que:
 
@@ -297,9 +303,9 @@ Caso você ainda não tenha inferido, nós podemos afirmar que:
 
 *ps: nem precisamos pesquisar isso para saber que está certo, né?*
 
+<br><br>
 
 Adicionando essa regra no código imperativo:
-
 
 ```js
 
@@ -320,21 +326,33 @@ function isPrime(num) {
 }
 
 ```
+<br>
 
+**Porém, entretanto, contudo, todavia, ainda devemos adicionar mais uma validação em cima da nossa lógica.**
 
-> Porém, entretanto, contudo, todavia, ainda podemos adicionar mais uma validação
-> em cima da nossa lógica.
+<br>
 
 Para isso precisamos pensar em qual **operação matemática** pode nos fornecer uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso significa que esse todo é divisível.
 
-Se usarmos o conceito da divisibilidade, ou seja, usar a operação da divisão ,podemos inferir que próximo passo, subindo 1 nível, que
-podemos analisar é...???
+Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão, podemos inferir que o próximo passo, subindo um nível de complexidade, que podemos analisar é...???
+
+<br>
 
 Antes de lhe responder vou te lembrar de algo.
 
-> Qual é a operação que está 1 nível acima da multiplicação?
 
-> **Potênciação**.
+<br>
+
+> Qual é a operação que está um nível acima da multiplicação?
+
+
+<br>
+
+> **É a potenciação**.
+
+
+<br>
+<br>
 
 Mais fácil eu demontrar ela:
 
@@ -348,7 +366,10 @@ Mais fácil eu demontrar ela:
 
 ```
 
-Ou seja, a potênciação é uma sequência de multiplicações. 
+
+<br>
+
+Ou seja, a potenciação é uma sequência de multiplicações. 
 
 Sabendo que a divisão é a operação inversa da multiplicação, podemos então definir que a operação que estamos buscando é...?
 
