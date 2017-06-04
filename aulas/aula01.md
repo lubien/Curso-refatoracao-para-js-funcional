@@ -41,16 +41,17 @@ Lembre dessa parte muito bem:
 
 Logo m4is você ir4 entender o porquê.
 
-<br>
 
 ![](http://media2.giphy.com/media/TY7dLV4kDmZSU/giphy.gif)
 
 <br>
+<br>
 
 <br>
 <br>
-## Aula 1 - Validar se um número é primo
+##Aula 1 - Validar se um número é primo
 
+<br>
 <br>
 <br>
 ![](https://i.ytimg.com/vi/21fYY_RqSmI/hqdefault.jpg)
