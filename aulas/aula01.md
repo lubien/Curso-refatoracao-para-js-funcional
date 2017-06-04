@@ -1,9 +1,18 @@
-## Aula 1 -Intro
+## Aula 1 - Como solucionar um problema
 
+<br>
 
-Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa[1].
-Uma função, neste sentido, pode ter ou não ter parâmetros e um simples valor de retorno. Os parâmetros são os valores de entrada da função, e o valor de retorno é o resultado da função. A definição de uma função descreve como a função será avaliada em termos de outras funções. 
+Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** ñ tenha ouvido falar, o que acho **muito** difícil.
 
+<br>
+
+> Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa.
+
+> A definição de uma função descreve como a função será avaliada em termos de outras funções. 
+
+*fonte: [](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
+<br>
+<br>
 Por exemplo:
 
 ```
