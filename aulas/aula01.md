@@ -229,29 +229,29 @@ function isPrime(num) {
 
 ```
 
-
-Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:
-
+<br>
+**Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:**
+<br>
 > O que podemos fazer para otimizar nossa função???
-
+<br>
 Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
-
+<br>
 Táaaaa não começarei com a Matemática (sua linda) agora, então pense que é um Array
 de 10.000 números, do 10.002 até o 2.
-
+<br>
 > Com certeza podemos diminuir esse *Array* não???
-
+<br>
 Podemos iniciar pela maior divisão inteira de algo.
-
+<br>
 > Se vocé pegar um Array de 10 elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
-
+<br><br>
 **Logicamente dividir ele por 2. Correto?**
-
+<br><br>
 Então perceba comigo que você dividiu ALGO pelo menor inteiro possível de se 
 dividir, `2`. Logo se você dividiu o TODO em 2 partes essas são as maiores possíveis.
-
+<br>
 > Por que você acha que cheguei nesse ponto???
-
+<br><br>
 Vamos lá, me acompanhe:
 
 ```
