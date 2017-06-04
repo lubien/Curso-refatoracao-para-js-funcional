@@ -630,6 +630,9 @@ if ( isEvenAndNot2( num ) || hasIntegerSquareRoot( num ) )
 
 ```
 <br>
+<br>
+
+### λTécnica.(semantica)
 
 Você deve ter percebido que não usei o **`is`** na função `hasIntegerSquareRoot`<br>
 como é usado na `isEvenAndNot2` e na função nativa [isInteger](http://mdn.io/isInteger),<br> 
@@ -656,7 +659,7 @@ Eu acredito que para **Programação Funcional** é mais importante ainda pois e
 
 <br><br>
 
-Logo para que você descreva algo necessariamente precisa da semântico, pois é ela que dará<br> 
+Logo para que você descreva algo necessariamente precisa da semântica, pois é ela que dará<br> 
 sentido aos nomes que você escolhe para suas constantes e funções.
 
 Como estamos aprendendo baseando-se nos conceitos básicos precisamos entender essa diferença<br>
