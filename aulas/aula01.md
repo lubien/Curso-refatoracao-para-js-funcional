@@ -933,6 +933,29 @@ const isPrime = ( num ) =>
 
 ### λTécnica.(função de validação)
 
+Como vimos no código anterior se eu invertesse sua lógica poderia utilizar assim:
+
+```js
+
+const isPrime = ( num ) => 
+  ( !isEvenAndNotTwo( num ) && 
+    !hasIntegerSquareRoot( num ) &&
+    !hasDivisor( num ) )
+
+```
+
+Porém, IMHO, ñ fica tao claro o que ela faz em comparaçao a outra que tem o<br>
+retorno de `false` e `true` denotando que ela possui uma "bateria de testes"<br>
+a serem feitos para garantir o valor final e somente depois de passar por<br> 
+todos os testes que ele ira retornar `true`, com isso confirmando que é<br>
+o valor que desejamos.
+
+Você esta livre para utilizar qualquer uma delas, mas se utilizar essa última você<br>
+tera que explicar o porquê ela fez mais sentido para o seu contexto.
+
+> Nesse curso você tera total liberdade de *codar* diferente do definido, só tera<br>
+> que explicar o porquê e essa explicaçao **DEVE** ser melhor que a minha.
+
 
 
 ## Conclusão
