@@ -81,15 +81,13 @@ Eu acredito, IMHO, que para você ser um bom programador precisa ter no mínimo 
 s4o discutíveis:
 
 - **Inglês // SIM! É obrigatório! Ou você programa em Português?**
-- **Lógica // Tanto a de Programaçao como Matem4tica**
+- **Lógica // Tanto a de Programaç4o como Matem4tica**
 
 <br>
 
-> **Duvido você encontrar algum programador **FOD4** que nao tenha esses 2.**
+> **Duvido você encontrar algum programador FOD4 que nao tenha esses 2.**
 
 <br>
-
-
 
 Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma de como resolver problemas 
 baseando-se em seus conceitos e isso serve para qualquer 4rea da sua vida.
@@ -169,8 +167,14 @@ Entao QQUER número par ...
 
 > **Ñ pode ser primo!**
 
+![](http://cs319426.vk.me/v319426206/9e01/-Vmg1dwhz5c.jpg)
 
-> **Nopzzz!** Nem todos.
+<br>
+<br>
+
+> Nem todos.
+
+<br>
 
 Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
 
