@@ -2,8 +2,7 @@
 
 <br>
 
-Primeiramente venho por meio desta apresentar-lhe a 
-Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
+Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
 o que acho **muito** difícil.
 
 <br>
@@ -104,7 +103,9 @@ baseando-se em seus conceitos e isso serve para qualquer 4rea da sua vida.
 
 Exemplo:
 
-> O que é um número primo?
+<br>
+
+> **O que é um número primo?**
 
 <br>
 
@@ -112,13 +113,13 @@ Exemplo:
 
 fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
 
-<br>
+<br><br>
 
 Com isso podemos inferir que:
 
 > Ele só é divisível por ele mesmo e por 1.
 
-<br>
+<br><br>
 
 Entao o algoritmo para sabermos isso eh BEM simples:
 
@@ -133,7 +134,7 @@ logo ñ é primo!
 Se ñ achar nenhum é primo!
 
 ```
-
+<br>
 Vejamos isso em JS comum:
 
 ```js
@@ -151,13 +152,13 @@ function isPrime(num) {
 
 
 ```
-
+<br>
 Logo isso nos remete a outros 2 conceitos numéricos, **um número pode ser par ou ímpar**, correto???
 
 Para um número ser par ele precisa ser o que?
-<br>
-> **Divisível por 2!**
-<br>
+<br><br>
+> **Ser divisível por 2!**
+<br><br>
 Entao QQUER número par ...
 
 
