@@ -901,7 +901,8 @@ const isPrime = ( num ) =>
 
 ### λTécnica.(arrow function)
 
-Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora ainda não<br> entrarei em maiores detalhes pois você só verá ela daqui para frente.
+Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora<br> 
+ainda não entrarei em maiores detalhes pois você só verá ela daqui para frente.
 
 No código acima transformamos ela em uma função que eu gosto de <br>
 chamar de: *one line function*.
@@ -930,8 +931,8 @@ Pois nós só conseguimos retirar o `return` de `isPrime` porque ela<br>
 
 <br>
 
-Só conseguimos retornar diretamente na *arrow function* pois esse *if*
-possui o `return` implícito, como visto abaixo, ñ existe nenhum `return`!
+Só conseguimos retornar diretamente na *arrow function* pois esse *if* possui<br> 
+o `return` implícito, como visto abaixo, ñ existe nenhum `return`!
 
 ```js
 
