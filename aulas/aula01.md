@@ -50,6 +50,8 @@ Logo m4is você ir4 entender o porquê.
 <br>
 <br>
 
+<hr>
+
 ##Problema - validar se um número é primo
 
 <br>
