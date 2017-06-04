@@ -3,8 +3,10 @@
 
 <br>
 
+
+
 Provavelmente esse curso seja bem diferente do que você est4 acostumado,  
-<br>pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
+<br> pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
 Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**
 
@@ -26,7 +28,7 @@ Creio que sua própria definiç4o diz tudo:
 <br>
 
 Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional  
-<br>caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
+<br> caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
 
 <br>
 
@@ -55,7 +57,7 @@ f(x) = x^2 + 2
 
 Ela definida em termos de funções de exponenciação e adição. 
 Do mesmo modo, a linguagem deve oferecer funções básicas que  
-<br>não requerem definições adicionais.
+<br> não requerem definições adicionais.
 
 ##### λLembrete 1
 
@@ -103,25 +105,27 @@ Logo m4is você ir4 entender o porquê.
 <br>
 
 Eu acredito, IMHO, que para você ser um bom programador precisa ter  
-<br>no mínimo 2 coisas essênciais:
+<br> no mínimo 2 coisas essênciais:
+
+<br>
 
 - **Inglês // SIM! É obrigatório! Ou você programa em Português?**
 - **Lógica // Tanto a de Programaç4o como Matem4tica**
 
-<br>
+<br><br>
 
 > **Duvido você encontrar algum programador FOD4 que nao tenha esses 2.**
 
-<br>
+<br><br>
 
 Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
 <br> de como resolver problemas baseando-se em seus conceitos e 
-<br>isso serve para qualquer 4rea da sua vida.
+<br> isso serve para qualquer 4rea da sua vida.
 
 <br>
 
 **O nosso problema é t4o simples que só precisamos testar se os**
-<br>**números 10.002 e 10.003 s4o primos.**
+<br> **números 10.002 e 10.003 s4o primos.**
 
 <br>
 
