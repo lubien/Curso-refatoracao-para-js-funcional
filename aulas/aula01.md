@@ -3,10 +3,8 @@
 
 <br>
 
-
-
-Provavelmente esse curso seja bem diferente do que você est4 acostumado,  
-<br> pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
+Provavelmente esse curso seja bem diferente do que você est4 acostumado, <br> 
+pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
 Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**
 
@@ -291,7 +289,6 @@ function isPrime(num) {
 > O que podemos fazer para otimizar nossa função???
 
 <br>
-<br>
 
 Para clarear sua mente você pode imaginar todos esses números como um [CONJUNTO](https://pt.wikipedia.org/wiki/Conjunto)... 
 
@@ -321,7 +318,10 @@ Podemos iniciar pela maior divisão inteira de algo.
 <br>
 <br>
 
-> Se vocé pegar um Array de dez elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
+> Se vocé pegar um *Array* de dez elementos e quer separar ele em partes<br> 
+as quais **sejam iguais e as maiores possíveis**. 
+
+> O que fará???
 
 <br><br>
 
@@ -329,8 +329,9 @@ Podemos iniciar pela maior divisão inteira de algo.
 
 <br><br>
 
-Então perceba comigo que você dividiu ALGO pelo menor inteiro possível de se 
-dividir, `2`. Logo se você dividiu o TODO em 2 partes essas são as maiores possíveis.
+Perceba comigo que se você dividir **ALGO** pelo menor inteiro possível, de se 
+dividir, `2`. Ent4o se você dividiu **ALGO** em duas partes iguais essas são<br> 
+necessariamente as maiores possíveis. Bem lógico, né?
 
 <br>
 
@@ -342,21 +343,26 @@ Vamos lá, me acompanhe:
 
 ```
 
-10 / 9 = ehInteiro? false
-10 / 8 = ehInteiro? false
-10 / 7 = ehInteiro? false
-10 / 6 = ehInteiro? false
-10 / 5 = ehInteiro? true
+10 / 9 = isInteger? false
+10 / 8 = isInteger? false
+10 / 7 = isInteger? false
+10 / 6 = isInteger? false
+10 / 5 = isInteger? true
 
 ```
 
 <br>
 
-> E agora ficou mais fácil de perceber???
+> Agora ficou mais fácil de perceber???
 
 <br>
 
-Caso você ainda não tenha inferido, nós podemos afirmar que:
+Caso você ainda não tenha inferido, vou lhe ajudar. 
+
+<br>
+<br>
+
+Podemos afirmar que:
 
 <br>
 
