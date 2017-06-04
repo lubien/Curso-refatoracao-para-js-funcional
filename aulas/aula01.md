@@ -125,15 +125,28 @@ Entao o algoritmo para sabermos isso eh BEM simples:
 
 ```
 
-Pego o número e testo se a divisao deles por TODOS seus
-antecessores, menos o 1, retorna 0 em algum momento.
+Pego o número e testo se a divisao dele por TODOS seus
+antecessores, menos o 1, se o resto for 0 em algum momento
+é pq esse número tem divisor entre ele e o 1,
 
-Se retornar eh pq esse número tem divisor entre ele e o 1,
-logo ñ é primo!
+Logo ñ é primo!
 
 Se ñ achar nenhum é primo!
 
 ```
+<br>
+
+Esse é um padr4o que **SEMPRE** uso nas minhas funções de teste/validaç4o.
+Quando vamos testar se alguma coisa é algo esse teste só **deve** retornar `true` ou `false`.
+
+
+##### λLembrete 2
+
+Por isso eu deixo todos os testes que **invalidem** o que queremos testar no topo para que a última
+coisa que esse teste faça é retornar `true`.
+
+
+
 <br>
 Vejamos isso em JS comum:
 
