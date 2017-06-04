@@ -1,6 +1,35 @@
 ## Aula 1 -Intro
 
-### Funçoes
+
+Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa[1].
+Uma função, neste sentido, pode ter ou não ter parâmetros e um simples valor de retorno. Os parâmetros são os valores de entrada da função, e o valor de retorno é o resultado da função. A definição de uma função descreve como a função será avaliada em termos de outras funções. 
+
+Por exemplo:
+
+```
+
+f(x) = x^2 + 2
+
+```
+Ela definida em termos de funções de exponenciação e adição. Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
+
+##### Lembrete 01
+
+Lembre dessa parte muito bem:
+
+> **"...a linguagem deve oferecer funções básicas que não requerem definições adicionais..."**
+
+<br>
+
+Logo m4is você ir4 entender o porquê.
+
+<br>
+
+![](http://media2.giphy.com/media/TY7dLV4kDmZSU/giphy.gif)
+
+<br>
+
+### Funções
 
 O algoritmo mais basico que aprendemos na faculdade é o de testar uma idade.
 
@@ -415,14 +444,15 @@ function isPrime(num) {
 }
 
 ```
+<br>
+<br>
+Nosso próximo passo é retirar as funções que compõe o comportamento
+ da função principal `isPrime`:
+<br>
 
-
-
-// Retirando as funções qe compõe o comportmento
-// da função principal
-
+ ```js
 // se for par E não for 2
-const isEvenAndNotTwo = ( num ) => 
+const isEvenAndNot2 = ( num ) => 
   ( ( num % 2 ) === 0 && num !== 2 )
     ? true
     : false
@@ -436,7 +466,7 @@ const hasIntegerSquareRoot = ( num ) =>
 
 const isPrime = ( num) => { 
 
-  if ( isEvenAndNotTwo( num ) )
+  if ( isEvenAndNot2( num ) )
     return false
 
   if ( hasIntegerSquareRoot(num) )
@@ -477,8 +507,46 @@ isPrime 100007 false
 
 
 */
+```
+
+<br>
+
+Se os dois testes, `isEvenAndNot2` e `hasIntegerSquareRoot`, retornam `false` podemos testa-los de uma só vez:
+
+```js
+if ( isEvenAndNot2( num ) || 
+    hasIntegerSquareRoot( num ) )
+  return false
+
+```
+<br>
+
+Você deve ter percebido que ñ usei o `is` na func4o `hasIntegerSquareRoot` como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger), esse é um conceito que tento aplicar o m4ximo possível nos meus 
+códigos que é a **semantica**
+
+<br>
+> "...o componente do sentido das palavras..."
+<br>
+
+Eu acredito que para Programaç4o Funcional é mais importante ainda pois a ela é declarativa.
+<br>
+> "... um programa é declarativo se descreve o que ele faz e não como seus procedimentos funcionam."
+
+*fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa]https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa()*
+
+<br><br>
+
+Logo para que você descreva algo necessariamente precisa ser sem4ntico
+
+[tem](https://www.dicio.com.br/tem/)
 
 
+[É](https://www.dicio.com.br/e-4/) vem do verbo ser. O mesmo que: acontece, está, existe, subsiste, sucede.
+
+
+<br>
+
+<br>
 
 ### Aula 1 - Exercício
 
