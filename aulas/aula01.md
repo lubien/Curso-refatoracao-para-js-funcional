@@ -31,7 +31,7 @@ f(x) = x^2 + 2
 Ela definida em termos de funções de exponenciação e adição. 
 Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
 
-##### Lembrete λ 01
+##### λLembrete 1
 
 Lembre dessa parte muito bem:
 
@@ -58,7 +58,7 @@ Logo m4is você ir4 entender o porquê.
 <br>
 <br>
 
-## Problema λ validar se um número é primo
+## λProblema.(Validar se um número é primo(
 
 <br>
 <br>
@@ -370,7 +370,8 @@ function isPrime(num) {
 <br>
 
 <hr>
-### Aula 1 λ Refatorando a solução
+
+### λRefatorando.(4 solução)
 
 
 Vamos iniciar com nosso código anterior para que possamos analisar quais partes podem ser separadas, pois cada uma validação é um teste diferente, logo tem responsabilidades diferentes.
@@ -505,7 +506,7 @@ Logo para que você descreva algo necessariamente precisa ser sem4ntico
 
 <br>
 
-### Exercício
+### λExercício
 
 Use um código seu ou procure na Internet podendo ser **QUALQUER** cálculo
 que possua um *loop* pelo menos. 
