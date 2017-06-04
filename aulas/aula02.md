@@ -1,9 +1,5 @@
 
-### Aula 1 - Refatorando a soluçao
-
-
-
-## Code Style Funcional
+# Aula 2 - Code Style Funcional
 
 * **Use 2 espaços** para identação.
 

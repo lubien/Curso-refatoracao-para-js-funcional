@@ -172,3 +172,5 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 ### [Novatec](https://novatec.com.br/) - Livros - 1 - Primeiros passos com React
 
 [![Primeiros passos com React](https://s3.novatec.com.br/capas-ampliadas/capa-ampliada-9788575225202.jpg)](https://novatec.com.br/livros/primeiros-passos-com-react/)
+
+![Novatec](http://i.imgur.com/TsRwJiA.png)

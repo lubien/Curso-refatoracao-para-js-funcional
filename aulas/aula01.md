@@ -126,7 +126,7 @@ Preciso testar se os números 10.002 e 10.003 s4o primos.
 <br>
 
 
-Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, os quais vc consegue ler e ja entender.
+Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, os quais vc consegue ler e já entender.
 
 Exemplo:
 
@@ -158,14 +158,17 @@ Vejamos isso em JS comum:
 
 ```js
 
-const _isPrime = ( n ) => { 
-  let c = n-1; 
-  
-  while( c-- ){ 
-    if( (n % c) === 0) return false
-   } 
-   return true 
- }
+function isPrime(num) { 
+  for (let i = num - 1; i >= 1; i--) {
+    if(num % i === 0) {
+      console.log('\n')
+      console.log(num + ' é divisível por: ', i)
+      return false;
+    }
+  }
+  return true;
+}
+
 
 ```
 
@@ -189,291 +192,242 @@ Entao QQUER número par ...
 
 Pense comigo: o 2 é divisível por ele e por 1. Logo **ele tb é primo!**
 
-Levando isso em consideraçao ja temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
+Levando isso em consideração já temos nossa primeira regra de validaçao e ñ apenas de validaçao, me acompanhe.
 
-Se formo
+Se formormos testar 2 números para isso:
 
-### Aula 1 - Refatorando a soluçao
+- 10.002
+- 10.003
+
+> **Para o 10.003 iremos fazer 10.000 operações!!!** 
+
+Lembrando que na verdade cada operação são 2:
+
+- a divisão/mod
+- a comparação
+
+Fora a decrementação.
+
+Adicionando essa regra no código imperativo:
 
 
+```js
 
-## Code Style Funcional
-
-* **Use 2 espaços** para identação.
-
-  ```js
-  const hello = ( name ) => {
-    console.log( 'oi', name )
-    console.log( 'tchau', name )
+function isPrime(num) { 
+  // se for par E não for 2
+  if ((n % 2) === 0 && n !== 2)
+  for (let i = num - 1; i >= 1; i--) {
+    if(num % i === 0) {
+      console.log('\n')
+      console.log(num + ' é divisível por: ', i)
+      return false;
+    }
   }
-  ```
+  return true;
+}
 
-* **Use aspas simples para strings**.
 
-  ```js
-  console.log( 'Salveeee galera do Funcional!!!' )
-  ```
+```
 
-* **Sem constiáveis não-utilizadas.**
 
-  ```js
-  const myFunction () => {
-    const result = something()   // ✗ evite
+Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:
+
+> O que podemos fazer para otimizar nossa função???
+
+Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
+
+Táaaaa não começarei com a Matemática (sua linda) agora, então pense que é um Array
+de 10.000 números, do 10.002 até o 2.
+
+> Com certeza podemos diminuir esse *Array* não???
+
+Podemos iniciar pela maior divisão inteira de algo.
+
+> Se vocé pegar um Array de 10 elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
+
+**Logicamente dividir ele por 2. Correto?**
+
+Então perceba comigo que você dividiu ALGO pelo menor inteiro possível de se 
+dividir, `2`. Logo se você dividiu o TODO em 2 partes essas são as maiores possíveis.
+
+> Por que você acha que cheguei nesse ponto???
+
+Vamos lá, me acompanhe:
+
+```
+10 / 9 = ehInteiro? false
+10 / 8 = ehInteiro? false
+10 / 7 = ehInteiro? false
+10 / 6 = ehInteiro? false
+10 / 5 = ehInteiro? true
+```
+
+> E agora ficou mais fácil de perceber???
+
+Caso você ainda não tenha inferido, nós podemos afirmar que:
+
+> Um número **NUNCA** TEM UM DIVISOR INTEIRO QUE SEJA MAIOR QUE SUA METADE.
+
+*ps: nem precisamos pesquisar isso para saber que está certo, né?*
+
+
+Adicionando essa regra no código imperativo:
+
+
+```js
+
+function isPrime(num) { 
+  // se for par E não for 2
+  if ((n % 2) === 0 && n !== 2)
+    return false;
+
+  // Começaremosos as divisões a partir da sua metade
+  for (var c = Math.ceil(n / 2); c >= 1; c--) {
+    if(num % c === 0) {
+      console.log('\n')
+      console.log(num + ' é divisível por: ', i)
+      return false;
+    }
   }
-  ```
+  return true;
+}
 
-* **Adicione um espaço após as keywords.**
+```
 
-  ```js
-  if ( condition ) { ... }   // ✓ ok
-  if(condition) { ... }    // ✗ evite
-  ```
 
-* **Adicione um espaço antes do parêntese de declaração de funções.**
+> Porém, entretanto, contudo, todavia, ainda podemos adicionar mais uma validação
+> em cima da nossa lógica.
 
-  ```js
-  function name ( arg ) { ... }   // ✓ ok
-  function name( arg ) { ... }    // ✗ evite
+Para isso precisamos pensar em qual **operação matemática** pode nos fornecer uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso significa que esse todo é divisível.
 
-  run( () => { ... } )      // ✓ ok
-  run(() => { ... } )       // ✗ evite
-  ```
+Se usarmos o conceito da divisibilidade, ou seja, usar a operação da divisão ,podemos inferir que próximo passo, subindo 1 nível, que
+podemos analisar é...???
 
-* **Sempre use** `===` ao invés de  `==`.<br>
-  Exceção: `obj == null` é permitido pra checar se `null || undefined`.
+Antes de lhe responder vou te lembrar de algo.
 
-  ```js
-  if ( name === 'John')   // ✓ ok
-  if ( name == 'John')    // ✗ evite
-  ```
+> Qual é a operação que está 1 nível acima da multiplicação?
 
-  ```js
-  if ( name !== 'John')   // ✓ ok
-  if ( name != 'John')    // ✗ evite
-  ```
+> **Potênciação**.
 
-* **Operadores infix** devem ser espaçados.
+Mais fácil eu demontrar ela:
 
-  ```js
-  // ✓ ok
-  const a = 2
-  const b = 5
-  const soma = ( a, b ) => a + b
-  ```
+```
 
-  ```js
-  // ✗ evite
-  const a=2
-  const b=5
-  const soma = ( a, b ) => a+b
-  ```
+9 = 3 * 3
+9 = 3 ^ 2 // 3 elevado ao quadrado
 
-* **Vírgulas devem ter um espaço** depois delas.
+27 = 3 * 3 * 3
+27 = 3 ^ 3 // 3 elevado ao cubo
 
-  ```js
-  // ✓ ok
-  const list = [1, 2, 3, 4]
-  const greet ( name, options ) => { ... }
-  ```
+```
 
-  ```js
-  // ✗ evite
-  const list = [1,2,3,4]
-  const greet ( name,options ) => { ... }
-  ```
+Ou seja, a potênciação é uma sequência de multiplicações. 
 
-* **Adicione um espaço no início e no final dos colchetes.**
+Sabendo que a divisão é a operação inversa da multiplicação, podemos então definir que a operação que estamos buscando é...?
 
-  ```js
-  // ✓ ok
-  const list = [ 1, 2, 3, 4 ]
-  ```
+<br>
+<br>
 
-  ```js
-  // ✗ evite
-  const list = [1,2,3,4]
-  ```
 
-* **Mantenha os else** na mesma linha das suas chaves.
+![](https://media0.giphy.com/media/l41YvrjGiI4cCJZPW/giphy.gif)
+<br>
+<br>
 
-  ```js
-  // ✓ ok
-  if ( condition ) {
-    // ...
-  } else {
-    // ...
+> **EXATAMENTE!** A [radiciação](https://pt.wikipedia.org/wiki/Radicia%C3%A7%C3%A3o).
+
+Vamos analisar então como ela funciona.
+
+```
+
+√9 = 3 // raíz quadrada de 27
+9 = 3 * 3
+9 / 3 = 3 
+
+3√27 = 3 // raíz cúbica de 27
+27 = 3 * 3 * 3
+27 / 3 = 9
+
+```
+
+> **Agora ficou fácil não?**
+
+Se um número tem uma **raíz inteira** isso significa que ele é divisível por outro número menor do que a metade dele.
+
+Podemos então adicionar essa regra no nosso código:
+
+
+```js
+
+function isPrime(num) { 
+  // se for par E não for 2
+  if ((num % 2) === 0 && num !== 2)
+    return false;
+
+  // Se um número tem uma **raíz inteira** 
+  // isso significa que ele é divisível
+  if (Number.isInteger(Math.sqrt(num)))
+    return false;
+
+  // Começaremosos as divisões a partir da sua metade
+  for (var i = Math.ceil(num / 2); i >= 2; i--) {
+    if(num % i === 0) {
+      console.log('\n')
+      console.log(num + ' é divisível por: ', i)
+      return false;
+    }
   }
-  ```
+  return true;
+}
 
-  ```js
-  // ✗ evite
-  if ( condition ) {
-    // ...
-  }
-  else {
-    // ...
-  }
-  ```
-
-* **Para ifs com mais de uma linha,** use chaves.
-
-  ```js
-  // ✓ ok
-  if ( options.quiet !== true)  console.log( 'done')
-  ```
-
-  ```js
-  // ✓ ok
-  if ( options.quiet !== true ) {
-    console.log( 'done')
-  }
-  ```
-
-  ```js
-  // ✗ evite
-  if ( options.quiet !== true )
-    console.log( 'done' )
-  ```
-
-* **Sempre lide** com o parâmetro `err` .
-
-  ```js
-  // ✓ ok
-  run( ( err ) {
-    if ( err ) throw err
-    window.alert( 'done' )
-  } )
-  ```
-
-  ```js
-  // ✗ evite
-  run( ( err ) {
-    window.alert( 'done' )
-  } )
-  ```
-
-* **Sempre prefixe globais de browser** com `window.`.<br>
-  Exceções: `document`, `console` e `navigator`.
-
-  ```js
-  window.alert( 'hi')   // ✓ ok
-  ```
-
-* **Não é permitido múltiplas linhas em branco.**
-
-  ```js
-  // ✓ ok
-  const value = 'hello world'
-  console.log( value )
-  ```
-
-  ```js
-  // ✗ evite
-  const value = 'hello world'
+```
 
 
-  console.log( value )
-  ```
 
-* **Se for usar operador ternário** em múltiplas linhas, deixe `?` e `:` em suas próprias linhas.
-
-  ```js
-  // ✓ ok
-  const location = env.development ? 'localhost' : 'www.api.com'
-
-  // ✓ ok
-  const location = env.development
-    ? 'localhost'
-    : 'www.api.com'
-
-  // ✗ evite
-  const location = env.development ?
-    'localhost' :
-    'www.api.com'
-  ```
-
-* **Para declarações de const,** escreva cada declaração na sua própria instrução.
-
-  ```js
-  // ✓ ok
-  const silent = true
-  const verbose = true
-
-  // ✗ evite
-  const silent = true, verbose = true
-
-  // ✗ evite
-  const silent = true,
-      verbose = true
-  ```
-
-* **Coloque parẽnteses adicionais** em declarações em condições. Isso torna mais claro que a expressão é uma declaração ( `=`) e não um typo de equidade ( `===`)
-
-  ```js
-  // ✓ ok
-  while ( ( m = text.match( expr ) ) ) {
-    // ...
-  }
-
-  // ✗ evite
-  while ( m = text.match( expr ) ) {
-    // ...
-  }
-  ```
-*
-## Ponto-e-vírgula
-
-* Não use. (veja: [1](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding), [2](http://inimino.org/%7Einimino/blog/javascript_semicolons), [3](https://www.youtube.com/watch?v=gsfbh17Ax9I))
-
-  ```js
-  window.alert( 'hi' )   // ✓ ok
-  window.alert( 'hi' );  // ✗ evite
-  ```
-
-* Nunca comece uma linha com `(`, `[`, ou `` ` ``. Esse é o único problema em omitir ponto-e-vírgula, e standard te protege desse problema em potencial.
-
-  ```js
-  // ✓ ok
-  ;( () => {
-    window.alert( 'ok' )
-  }() )
-
-  // ✗ evite
-  ( () => {
-    window.alert( 'ok' )
-  }() )
-  ```
-
-  ```js
-  // ✓ ok
-  ;[ 1, 2, 3 ].join( ' - ' )
-
-  // ✗ evite
-  [ 1, 2, 3 ].join( ' - ' )
-  ```
-
-  ```js
-  // ✓ ok
-  ;`hello`.indexOf( 'o' )
-
-  // ✗ evite
-  `hello`.indexOf( 'o' )
-  ```
-
-  Nota: Se você frequentemente escreve código assim, você pode estar querendo ser o inteligentão. Cuidado.
-
-  Atalhos inteligentes são desencorajados, em favor de expressões mais limpas e legíveis, sempre que possível.
+### Aula 1 - Refatorando a solução
 
 
-  Ao invés disso:
+```js
 
-  ```js
-  ;[ 1, 2, 3 ].forEach( odd )
-  ```
+const isPrime = ( n ) => { 
+  let c = n-1; 
+  
+  while( c-- ){ 
+    if( (n % c) === 0) return false
+   } 
+   return true 
+ }
 
-  **Isso é bem melhor!**
+```
 
-  ```js
-  const nums = [ 1, 2, 3, 4 ]
-  const evens = nums.filter( theEvens )
-  ```
+![](http://i.imgur.com/sb3ATGA.jpg)
+
+### Aula 1 - Exercício
+
+Use um código seu ou procure na Internet podendo ser **QUALQUER** cálculo
+que possua um *loop* pelo menos. 
+
+Coloque ele como enunciado do exercício e logo após o seu código refatorado.
+
+**POR FAVOR SIGA ESSE PADRAO**
+
+
+
+<br><br><br>
+# Aula 01 - Exercício
+
+## Código original:
+
+```js
+
+// code zuado aqui
+
+```
+
+## Código refatorado:
+
+```js
+
+// code da hora aqui
+
+```
+
