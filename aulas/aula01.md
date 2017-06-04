@@ -625,19 +625,22 @@ pois sigo um conceito que tento aplicar o m4ximo possível nos meus códigos, qu
 
 ![](http://i.imgur.com/oXyfZOa.png)
 
+<br>
+<br>
+
+> "...**o componente do sentido das palavras**..."
 
 <br>
-<br>
-> "...o componente do sentido das palavras..."
 <br>
 
 Eu acredito que para **Programação Funcional** é mais importante ainda pois ela **é declarativa**.
 
 <br>
+<br>
 
 > "... um programa é declarativo se descreve o que ele faz e não como seus procedimentos funcionam."
 
-*fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa]https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa()*
+*fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa]https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa)*
 
 <br><br>
 
@@ -647,19 +650,22 @@ sentido aos nomes que você escolhe para suas constantes e funções.
 Como estamos aprendendo baseando-se nos conceitos b4sicos precisamos entender essa diferença<br>
 entre esses dois nomes utilizando, obviamente, seus conceitos.
 
+<br><br>
+
 > "Ação de ter; ato de receber ou de passar a possuir alguma coisa: ele tem uma casa; a empresa tem muitos funcionários."
 
-*fonte: [https://www.dicio.com.br/tem/](https://www.dicio.com.br/tem/)
+*fonte: [https://www.dicio.com.br/tem/](https://www.dicio.com.br/tem/)*
 
+<br><br>
 
 > "É vem do verbo ser. O mesmo que: acontece, está, existe, subsiste, sucede."
 
-*fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)
+*fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)*
 
 
-<br>
+<br><br>
 
-<br>
+<hr>
 
 ### λExercício
 
