@@ -652,7 +652,7 @@ entre esses dois nomes utilizando, obviamente, seus conceitos.
 
 <br><br>
 
-> "Ação de ter; ato de receber ou de passar a possuir alguma coisa: ele tem uma casa; a empresa tem muitos funcionários."
+> "Ação de ter; ato de receber ou de passar a possuir alguma coisa..."
 
 *fonte: [https://www.dicio.com.br/tem/](https://www.dicio.com.br/tem/)*
 
@@ -662,6 +662,22 @@ entre esses dois nomes utilizando, obviamente, seus conceitos.
 
 *fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)*
 
+
+<br><br>
+
+Agora ficou fácil de **inferir** o porquê dos nomes: `hasIntegerSquareRoot` e `isEvenAndNot2`.
+
+<br><br>
+
+A traduç4o de `hasIntegerSquareRoot` é "TEM raíz quadrada inteira", logo precisamos de<br>
+*algo* para que ele possua a raíz quadrada inteira, por isso ñ utilizo o `is/é`.
+
+Entretanto na funç4o `isEvenAndNot2`, "É par e não é 2", realmente estamos testando<br> 
+o que É esse *algo*.
+
+<br><br>
+
+> Ser4 que ficou clara essa parte sobre a sem4ntica dos nomes das funções?
 
 <br><br>
 
