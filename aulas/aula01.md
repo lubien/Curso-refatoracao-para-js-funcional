@@ -792,8 +792,8 @@ Quero que você se foque nessa parte:
 <br>
 <br>
 
-Pois agora irei lhe mostrar onde esta esse famigerado "efeito colateral"<br>
-no nosso código.
+Pois agora irei lhe mostrar onde esta esse famigerado<br> 
+"efeito colateral" no nosso código.
 
 ```js
 
@@ -804,9 +804,9 @@ for ( i; i >= 2; i-- ) {
 
 ```
 
-Nosso problema aí é que o `i` existe apenas fora do contexto do `for`, porém seu valor
-é modificado internamente no `for`, ou seja, modifica algo fora do seu escopo, porém<br>
-para corrigir isso é bem simples, basta colocarmos o `i` dentro do `for`.
+Nosso problema aí é que o `i` existe apenas fora do contexto do `for`, porém<br> 
+seu valor é modificado internamente no `for`, ou seja, modifica algo fora do<br>  
+seu escopo, porém para corrigir isso é bem simples, basta colocarmos o `i` dentro do `for`.
 
 ![](https://media3.giphy.com/media/tMPSeKEplOfK0/giphy.gif)
 
