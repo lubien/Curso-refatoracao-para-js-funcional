@@ -282,20 +282,22 @@ function isPrime(num) {
 ```
 
 <br>
-**Agora quero apelar para o Linus Torvalds que existe dentro**
-<br>**de você e te perguntar:**
+<br>
+
+**Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:**
+
 <br>
 
 > O que podemos fazer para otimizar nossa função???
 
 <br>
+<br>
 
-Para clarear sua mente você pode imaginar todos esses números
-<br> como um CONJUNTO... 
+Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
 
 <br>
 
-Táaaaa não começarei com a Matemática (sua linda) agora, então pense 
+Tááááááá não começarei com a Matemática (sua linda) agora, então pense 
 <br>que é um Array de 10.000 números, do 10.002 até o 2.
 
 <br>
