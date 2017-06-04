@@ -1,12 +1,12 @@
 # λAula01.(Como solucionar um problema)
 
-Provavelmente esse curso seja bem diferente do que você esta acostumado, <br> 
+Provavelmente esse curso seja bem diferente do que você está acostumado, <br> 
 pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
 <br> 
 
 Quem sabe você ache chato no início mas bote fé que **eu garanto que você irá aprender!**<br>
-Por isso você ira ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
+Por isso você vai ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
 
 Creio que sua própria definição diz tudo:
 
@@ -117,7 +117,7 @@ Eu acredito, IMHO, que para você ser um bom programador precisa ter
 
 Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
 <br> de como resolver problemas baseando-se em seus conceitos e 
-<br> isso serve para qualquer area da sua vida.
+<br> isso serve para qualquer área da sua vida.
 
 <br>
 
@@ -710,7 +710,7 @@ if ( isEvenAndNotTwo( num ) ||
 
 <br>
 
-Continuando nessas funções, porém agora nas suas definições la no início do código.
+Continuando nessas funções, porém agora nas suas definições lá   no início do código.
 
 ```js
 
