@@ -559,8 +559,8 @@ function isPrime(num) {
 <br>
 <br>
 
-Nosso próximo passo é retirar as funções que compõe <br>
-o comportamento da função principal `isPrime`. Pois quando escrevemos uma função<br> 
+Nosso próximo passo é retirar as funções que compõe o comportamento da <br> 
+função principal `isPrime`. Pois quando escrevemos uma função<br> 
 **ela deve fazer uma, e apenas uma coisa**. 
 
 <br>
