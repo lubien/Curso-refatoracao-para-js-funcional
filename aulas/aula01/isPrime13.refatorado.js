@@ -13,14 +13,16 @@ const hasDivisor = ( num ) => {
   return false
 }
 
+const squareRootOf = ( num ) => Math.sqrt( num )
+const isInteger = ( num ) => Number.isInteger( num )
 const hasIntegerSquareRoot = ( num ) => 
-  ( Number.isInteger( Math.sqrt( num ) ) )
+  ( isInteger( squareRootOf( num ) ) )
 
-const isEvenAndNotTwo = ( num ) => 
+const isEvenAndNot2 = ( num ) => 
   ( isNot ( even( num ) ) && ( num !== 2 ) )
 
 const isPrime = ( num ) => 
-  ( isEvenAndNotTwo( num ) || 
+  ( isEvenAndNot2( num ) || 
     hasIntegerSquareRoot( num ) ||
     hasDivisor( num ) )
       ? false
