@@ -442,7 +442,8 @@ Mais fácil eu demonstrar ela:
 
 Ou seja, a potenciação é uma sequência de multiplicações. 
 
-Sabendo que a divisão é a operação inversa da multiplicação, podemos então **inferir** que a operação que estamos buscando é...?
+Sabendo que a divisão é a operação inversa da multiplicação, podemos então **inferir**<br>
+que **a operação que estamos buscando é...?**
 
 <br>
 <br>
