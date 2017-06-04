@@ -104,13 +104,15 @@ Logo m4is você ir4 entender o porquê.
 <br>
 <br>
 
-Eu acredito, IMHO, que para você ser um bom programador precisa ter  
-<br> no mínimo 2 coisas essênciais:
+Eu acredito, IMHO, que para você ser um bom programador precisa ter
+<br> no mínimo 2 coisas essênciais: 
+
 
 <br>
+<br>
 
-- **Inglês // SIM! É obrigatório! Ou você programa em Português?**
-- **Lógica // Tanto a de Programaç4o como Matem4tica**
+- **Inglês** // SIM! É obrigatório! Ou você programa em Português?
+- **Lógica** // Tanto a de Programaç4o como Matem4tica
 
 <br><br>
 
