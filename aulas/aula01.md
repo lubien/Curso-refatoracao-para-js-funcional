@@ -1,9 +1,18 @@
 # λAula01.(Como solucionar um problema)
 
+
 <br>
 
-Primeiramente venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** não tenha ouvido falar, 
-o que acho **muito** difícil.
+Provavelmente esse curso seja bem diferente do que você est4 acostumado, pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
+
+Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**
+
+![](https://s-media-cache-ak0.pinimg.com/236x/e7/f0/c4/e7f0c4cda21af9a6c5562eec0811eead.jpg)
+
+<br>
+<br>
+
+Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
 
 <br>
 
@@ -18,8 +27,10 @@ no estado do programa.
 avaliada em termos de outras funções. 
 
 *fonte: [(https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)*
+
 <br>
 <br>
+
 Por exemplo:
 
 ```
@@ -27,6 +38,7 @@ Por exemplo:
 f(x) = x^2 + 2
 
 ```
+
 Ela definida em termos de funções de exponenciação e adição. 
 Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
 
