@@ -753,7 +753,7 @@ const hasIntegerSquareRoot = ( num ) =>
 <br>
 
 Depois disso nos sobrou separar o teste da divisão o qual precisamos tomar cuidado<br>
-para ñ fazer merda, pois precisamos ajeitar o contado do `for` que está assim:
+para não fazer merda, pois precisamos ajeitar o contado do `for` que está assim:
 
 ```js
 
@@ -771,7 +771,7 @@ for ( i; i >= 2; i-- ) {
 <br>
 <br>
 
-Se você ainda ñ **inferiu** o problema eu vou lhe contar sobre outro conceito de PF, chamado<br>
+Se você ainda não **inferiu** o problema eu vou lhe contar sobre outro conceito de PF, chamado<br>
 de **[efeitos colaterais](https://en.wikipedia.org/wiki/Side_effect_(computer_science))**
 
 <br>
@@ -938,7 +938,7 @@ Pois nós só conseguimos retirar o `return` de `isPrime` porque ela<br>
 <br>
 
 Só conseguimos retornar diretamente na *arrow function* pois esse *if* possui<br> 
-o `return` implícito, como visto abaixo, ñ existe nenhum `return`!
+o `return` implícito, como visto abaixo, não existe nenhum `return`!
 
 ```js
 
@@ -964,7 +964,7 @@ const isPrime = ( num ) =>
 
 ```
 
-Porém, IMHO, ñ fica tao claro o que ela faz em comparaçao a outra que tem o<br>
+Porém, IMHO, não fica tao claro o que ela faz em comparaçao a outra que tem o<br>
 retorno de `false` e `true` denotando que ela possui uma "bateria de testes"<br>
 a serem feitos para garantir o valor final e somente depois de passar por<br> 
 todos os testes que ele ira retornar `true`, com isso confirmando que é<br>
@@ -984,17 +984,18 @@ Antes de finalizarmos essa aula quero lhe perguntar algo:
 
 <br>
 
-> Você percebeu que **todas** nossas funções ñ possuem efeito colateral **e**<br>
+> Você percebeu que **todas** nossas funções não possuem efeito colateral **e**<br>
 > além disso sempre produz o mesmo resultado quando dados os mesmos parâmetros.
 
-O conceito de sempre produzir o mesmo resultado<br>
-com os mesmos parâmetros chama-se: **Transparência Referencial**
+O conceito de sempre produzir o mesmo resultadocom os mesmos parâmetros<br> 
+chama-se: **Transparência Referencial**
 
 
-> "Uma função é considerada pura se possui transparência referencial e é livre de efeitos colaterais."
+> "Uma função é considerada pura se possui transparência referencial e<br> 
+> é livre de efeitos colaterais."
 
 
-Porém nós ñ vimos nada sobre **transparência referencial** ainda e fiz isso<br>
+Porém nós não vimos nada sobre **transparência referencial** ainda e fiz isso<br>
 exatamente para passar como exercício.
 
 <br> 
@@ -1004,16 +1005,14 @@ exatamente para passar como exercício.
 
 Nessa aula teremos dois tipos de exercícios.
 
-Na Pesquisa você deverá dissertar sobre os assuntos<br> 
-pedidos e o que entendeu sobre.
+Na Pesquisa você deverá dissertar sobre os assuntos pedidos e o que entendeu sobre.
 
 <br> 
 
 #### λPesquisa
 
-Disserte sobre o conceito de **transparência referencial**,<br> 
-de como é utilizada e como ela agrega com outros conceitos<br> 
-que você com certeza irá encontrar quando pesquisar.
+Disserte sobre o conceito de **transparência referencial**, de como é utilizada<br>  
+e como ela agrega com outros conceitos que você com certeza irá encontrar quando pesquisar.
 
 <br>
 
@@ -1028,6 +1027,8 @@ que você com certeza irá encontrar quando pesquisar.
 
 Se você já sabe, entao terá menos trabalho para fazer esse exercício<br>
 e não esqueça de colocar exemplos que defendam sua ideia.
+
+<br>
 
 #### λRefatoração
 
@@ -1064,9 +1065,8 @@ Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 
 ## λAviso.(MUITO IMPORTANTE)
 
-### Fiz essa aula com um exemplo matemático para que você
-### abstraia todos esses conceitos que passei e
-### consiga implementa-los futuramente
+### Fiz essa aula com um exemplo matemático para que você abstraia todos esses 
+## conceitos que passei e consiga implementa-los futuramente
 
 ### Se querem ver códigos reais por favor mandem os seus
 ### na sua ISSUE para que eu possa analisar.
