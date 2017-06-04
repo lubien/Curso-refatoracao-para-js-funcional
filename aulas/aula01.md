@@ -3,7 +3,6 @@
 <br>
 
 Primeiramente venho por meio desta apresentar-lhe a 
-
 Programação Funcional caso você **4ind4** ñ tenha ouvido falar, 
 o que acho **muito** difícil.
 
@@ -48,10 +47,15 @@ Logo m4is você ir4 entender o porquê.
 
 <br>
 
+<br>
+<br>
 ## Aula 1 - Validar se um número é primo
 
+<br>
+<br>
 ![](https://i.ytimg.com/vi/21fYY_RqSmI/hqdefault.jpg)
 
+<br>
 <br>
 Você deve estar pensando:
 
