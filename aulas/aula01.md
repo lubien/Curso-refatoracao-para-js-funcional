@@ -301,7 +301,11 @@ Táaaaa não começarei com a Matemática (sua linda) agora, então pense
 Podemos iniciar pela maior divisão inteira de algo.
 
 <br>
+<br>
 
+![https://i.imgflip.com/hs5ac.jpg](https://i.imgflip.com/hs5ac.jpg)
+
+<br>
 <br>
 
 > \- **WTF tio Suiss4?!!**
