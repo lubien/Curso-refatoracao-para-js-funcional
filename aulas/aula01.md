@@ -8,7 +8,7 @@ pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus 
 Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**<br>
 Por isso você ir4 ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
 
-Creio que sua própria definiç4o diz tudo:
+Creio que sua própria definição diz tudo:
 
 <br> 
 
@@ -107,7 +107,7 @@ Eu acredito, IMHO, que para você ser um bom programador precisa ter
 <br>
 
 - **Inglês** // SIM! É obrigatório! Ou você programa em Português?
-- **Lógica** // Tanto a de Programaç4o como Matem4tica
+- **Lógica** // Tanto a de Programação como Matem4tica
 
 <br><br>
 
@@ -121,8 +121,8 @@ Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
 
 <br>
 
-**O nosso problema é t4o simples que só precisamos testar se os**<br> 
-**números 10.002 e 10.003 s4o primos.**
+**O nosso problema é tão simples que só precisamos testar se os**<br> 
+**números 10.002 e 10.003 são primos.**
 
 <br>
 
@@ -326,7 +326,7 @@ as quais **sejam iguais e as maiores possíveis**.
 <br><br>
 
 Perceba comigo que se você dividir **ALGO** pelo menor inteiro possível, de se dividir, o 2.<br>
-Ent4o se você dividiu **ALGO** em duas partes iguais essas são necessariamente as maiores<br> possíveis. Bem lógico, né?
+Então se você dividiu **ALGO** em duas partes iguais essas são necessariamente as maiores<br> possíveis. Bem lógico, né?
 
 <br>
 
@@ -640,11 +640,11 @@ Eu acredito que para **Programação Funcional** é mais importante ainda pois e
 
 > "... um programa é declarativo se descreve o que ele faz e não como seus procedimentos funcionam."
 
-*fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa]https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa)*
+*fonte: [https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_declarativa)*
 
 <br><br>
 
-Logo para que você descreva algo necessariamente precisa da sem4ntico, pois é ela que dar4<br> 
+Logo para que você descreva algo necessariamente precisa da sem4ntico, pois é ela que dará<br> 
 sentido aos nomes que você escolhe para suas constantes e funções.
 
 Como estamos aprendendo baseando-se nos conceitos b4sicos precisamos entender essa diferença<br>
@@ -669,10 +669,10 @@ Agora ficou fácil de **inferir** o porquê dos nomes: `hasIntegerSquareRoot` e 
 
 <br><br>
 
-A traduç4o de `hasIntegerSquareRoot` é "TEM raíz quadrada inteira", logo precisamos de<br>
+A tradução de `hasIntegerSquareRoot` é "TEM raíz quadrada inteira", logo precisamos de<br>
 *algo* para que ele possua a raíz quadrada inteira, por isso ñ utilizo o `is/é`.
 
-Entretanto na funç4o `isEvenAndNot2`, "É par e não é 2", realmente estamos testando<br> 
+Entretanto na função `isEvenAndNot2`, "É par e não é 2", realmente estamos testando<br> 
 o que É esse *algo*.
 
 <br><br>
