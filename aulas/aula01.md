@@ -52,7 +52,7 @@ Logo m4is você ir4 entender o porquê.
 
 <hr>
 
-##Problema - validar se um número é primo
+## Problema - validar se um número é primo
 
 <br>
 <br>
@@ -67,6 +67,7 @@ Você deve estar pensando:
 
 
 <br>
+
 > L4 vem o Suissa com esse papo de Matem4tica, pqp!
 
 <br>
@@ -76,19 +77,26 @@ Vamos imPreciso testar se os números 10.002 e 10.003 s4o primos.
 <br>
 
 
-Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, os quais vc consegue ler e já entender.
+Eu SEMPRE inicio meu pensamento para solucionar algo pelos conceitos envolvidos, 
+os quais vc consegue ler e já entender.
 
 Exemplo:
 
 > O que é um número primo?
 
+<br>
+
 > "...um número natural primo tem unicamente dois divisores naturais distintos: o número um e ele mesmo"
 
 fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
 
+<br>
+
 Com isso podemos inferir que:
 
 > Ele só é divisível por ele mesmo e por 1.
+
+<br>
 
 Entao o algoritmo para sabermos isso eh BEM simples:
 
@@ -334,6 +342,10 @@ function isPrime(num) {
 
 ![](http://i.imgur.com/sb3ATGA.jpg)
 
+<br>
+<br>
+
+<hr>
 ### Aula 1 - Refatorando a solução
 
 
@@ -469,7 +481,7 @@ Logo para que você descreva algo necessariamente precisa ser sem4ntico
 
 <br>
 
-### Aula 1 - Exercício
+### Exercício
 
 Use um código seu ou procure na Internet podendo ser **QUALQUER** cálculo
 que possua um *loop* pelo menos. 
@@ -481,6 +493,9 @@ Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 
 
 <br><br><br>
+
+<hr>
+
 # Aula 01 - Exercício
 
 ## Código original:
