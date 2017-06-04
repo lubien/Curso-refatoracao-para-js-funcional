@@ -3,16 +3,30 @@
 
 <br>
 
-Provavelmente esse curso seja bem diferente do que você est4 acostumado, pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
+Provavelmente esse curso seja bem diferente do que você est4 acostumado,  
+<br>pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
 Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**
+
+Tem uma palavra que você ir4 ouvir **muitoooooo** durante esse curso: **inferir**.
+
+Creio que sua própria definiç4o diz tudo:
+
+<br> 
+
+> "Deduzir; concluir por inferência ou dedução, partindo de indícios, fatos ou raciocínios"
+
+*fonte: [https://www.dicio.com.br/inferido/](https://www.dicio.com.br/inferido/)*
+
+<br> 
 
 ![](https://s-media-cache-ak0.pinimg.com/236x/e7/f0/c4/e7f0c4cda21af9a6c5562eec0811eead.jpg)
 
 <br>
 <br>
 
-Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
+Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional  
+<br>caso você **4ind4** não tenha ouvido falar, o que acho **muito** difícil.
 
 <br>
 
@@ -40,7 +54,8 @@ f(x) = x^2 + 2
 ```
 
 Ela definida em termos de funções de exponenciação e adição. 
-Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
+Do mesmo modo, a linguagem deve oferecer funções básicas que  
+<br>não requerem definições adicionais.
 
 ##### λLembrete 1
 
@@ -87,9 +102,8 @@ Logo m4is você ir4 entender o porquê.
 <br>
 <br>
 
-
-Eu acredito, IMHO, que para você ser um bom programador precisa ter no mínimo 2 coisas que n4o 
-s4o discutíveis:
+Eu acredito, IMHO, que para você ser um bom programador precisa ter  
+<br>no mínimo 2 coisas essênciais:
 
 - **Inglês // SIM! É obrigatório! Ou você programa em Português?**
 - **Lógica // Tanto a de Programaç4o como Matem4tica**
@@ -100,11 +114,14 @@ s4o discutíveis:
 
 <br>
 
-Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma de como resolver problemas 
-baseando-se em seus conceitos e isso serve para qualquer 4rea da sua vida.
+Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
+<br> de como resolver problemas baseando-se em seus conceitos e 
+<br>isso serve para qualquer 4rea da sua vida.
 
+<br>
 
-**O nosso problema é t4o simples que só precisamos testar se os números 10.002 e 10.003 s4o primos.**
+**O nosso problema é t4o simples que só precisamos testar se os**
+<br>**números 10.002 e 10.003 s4o primos.**
 
 <br>
 
@@ -121,7 +138,8 @@ Exemplo:
 
 <br>
 
-> "...um número natural primo tem unicamente dois divisores naturais distintos: o número um e ele mesmo"
+> "...um número natural primo tem unicamente dois divisores naturais 
+<br>distintos: o número um e ele mesmo"
 
 fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
 
@@ -154,12 +172,13 @@ Quando vamos testar se alguma coisa é algo esse teste só **deve** retornar `tr
 
 ##### λLembrete 2
 
-Por isso eu deixo todos os testes que **invalidem** o que queremos testar no topo para que a última coisa que esse teste faça é retornar `true` porque se ele passou pela bateria de testes nós garantimos que aquele valor é realmente o que queremos.
-
-
-
+Por isso eu deixo todos os testes que **invalidem** o que queremos testar
+<br> no topo para que a última coisa que esse teste faça é retornar `true`
+<br> porque se ele passou pela bateria de testes nós garantimos que aquele
+<br> valor é realmente o que queremos.
 
 <br>
+
 Vejamos isso em JS imperativo:
 
 ```js
@@ -177,11 +196,15 @@ function isPrime(num) {
 
 
 ```
+
 <br>
-Logo isso nos remete a outros dois conceitos numéricos, **um número pode ser par ou ímpar**, correto???
+
+Logo isso nos remete a outros dois conceitos numéricos, 
+<br>**um número pode ser par ou ímpar**, correto???
 
 Para um número ser par ele precisa ser o que?
 <br><br>
+
 > \- **Ser divisível por 2!**
 
 <br><br>
@@ -199,6 +222,7 @@ Entao qualquer número par não pode...
 
 <br>
 <br>
+<br>
 
 > TE ENG4NEI! 
 > Nem todos.
@@ -213,7 +237,8 @@ Pense comigo:
 
 <br>
 
-Levando isso em consideração já temos nossa primeira regra de validação e não apenas de validação, me acompanhe.
+Levando isso em consideração já temos nossa primeira regra de validação
+<br> e não apenas de validação, me acompanhe.
 
 Se formormos testar dois números para isso:
 
@@ -251,27 +276,37 @@ function isPrime(num) {
 ```
 
 <br>
-**Agora quero apelar para o Linus Torvalds que existe dentro de você e te perguntar:**
+**Agora quero apelar para o Linus Torvalds que existe dentro**
+<br>**de você e te perguntar:**
 <br>
 
 > O que podemos fazer para otimizar nossa função???
 
 <br>
 
-Para clarear sua mente você pode imaginar todos esses números como um CONJUNTO... 
+Para clarear sua mente você pode imaginar todos esses números
+<br> como um CONJUNTO... 
 
 <br>
 
-Táaaaa não começarei com a Matemática (sua linda) agora, então pense que é um Array
-de 10.000 números, do 10.002 até o 2.
+Táaaaa não começarei com a Matemática (sua linda) agora, então pense 
+<br>que é um Array de 10.000 números, do 10.002 até o 2.
 
 <br>
+
 > Com certeza podemos diminuir esse *Array* não???
 
 <br>
 
 Podemos iniciar pela maior divisão inteira de algo.
 
+<br>
+
+<br>
+
+> \- **WTF tio Suiss4?!!**
+
+<br>
 <br>
 
 > Se vocé pegar um Array de dez elementos e quiser separar ele em partes onde essas sejam as maiores possíveis e **iguais** o que fará???
