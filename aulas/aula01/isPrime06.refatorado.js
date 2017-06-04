@@ -1,6 +1,3 @@
-// Retirando as funções qe compõe o comportmento
-// da função principal
-
 // Podemos retirar o true e false pois
 // o próprio teste lógico nos retorna isso
 const isEvenAndNotTwo = ( num ) => 

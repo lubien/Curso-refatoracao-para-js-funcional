@@ -22,8 +22,6 @@ const hasDivisor = ( num ) => {
 
 const isPrime = ( num ) => { 
 
-  // Se os dois testes retornam false
-  // podemos uní-los
   if ( isEvenAndNotTwo( num ) || 
       hasIntegerSquareRoot( num ) )
     return false

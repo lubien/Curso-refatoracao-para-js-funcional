@@ -663,23 +663,125 @@ entre esses dois nomes utilizando, obviamente, seus conceitos.
 *fonte: [https://www.dicio.com.br/e-4/](https://www.dicio.com.br/e-4/)*
 
 
-<br><br>
+<br>
 
-Agora ficou fácil de **inferir** o porquê dos nomes: `hasIntegerSquareRoot` e `isEvenAndNot2`.
+> Agora ficou fácil de **inferir** o porquê dos nomes `hasIntegerSquareRoot` e `isEvenAndNot2`?
 
-<br><br>
+<br>
 
 A tradução de `hasIntegerSquareRoot` é "TEM raíz quadrada inteira", logo precisamos de<br>
-*algo* para que ele possua a raíz quadrada inteira, por isso ñ utilizo o `is/é`.
+*algo* para que ele possua a raíz quadrada inteira, por isso não utilizo o `is/é`.
 
 Entretanto na função `isEvenAndNot2`, "É par e não é 2", realmente estamos testando<br> 
 o que É esse *algo*.
 
 <br><br>
 
-> Ser4 que ficou clara essa parte sobre a sem4ntica dos nomes das funções?
+> Será que ficou clara essa parte sobre a sem4ntica dos nomes das funções?
 
 <br><br>
+
+<hr>
+
+![](http://geradormemes.com/media/created/568115.jpg)
+
+<br><br><br>
+
+### λRefatoraç4o.λContinuaçao.(ainda tem aula pacas) 
+
+<br>
+<br>
+
+> Lembra dos dois testes que nomeamos semanticamente???
+
+<br>
+<br>
+
+No nosso caso essas duas funções retornam `false` então devemos agrupa-las:
+
+```js
+
+if ( isEvenAndNotTwo( num ) || 
+    hasIntegerSquareRoot( num ) )
+  return false
+
+```
+
+<br>
+
+Continuando nessas funções, porém agora nas suas definições l4 no início do código.
+
+```js
+
+const isEvenAndNotTwo = ( num ) => 
+  ( ( num % 2 ) === 0 && num !== 2 )
+    ? true
+    : false
+
+//hasIntegerSquareRoot
+
+```
+
+<br>
+
+Podemos retirar o `true` e `false` pois o próprio teste lógico retornar4 isso.
+
+```js
+
+const isEvenAndNotTwo = ( num ) => 
+  ( ( num % 2 ) === 0 && num !== 2 )
+
+const hasIntegerSquareRoot = ( num ) => 
+  ( Number.isInteger( Math.sqrt( num ) ) )
+
+```
+
+<br>
+
+Depois disso nos sobrou separar o teste da divisão o qual precisamos tomar cuidado<br>
+para ñ fazer merda, pois precisamos ajeitar o contado do `for` que est4 assim:
+
+```js
+
+let i = Math.ceil( num / 2 )
+// Começaremos as divisões a partir da sua metade
+for ( i; i >= 2; i-- ) {
+
+```
+
+<br>
+<br>
+
+> Qual o problema disso??
+
+<br>
+<br>
+
+
+```js
+
+const hasDivisor = ( num ) => {
+  for ( let i = Math.ceil( num / 2 ); i >= 2; i-- ) {
+    if( ( num % i ) === 0 ) 
+      return true
+  }
+  return false
+}
+
+const isPrime = ( num ) => { 
+
+  if ( isEvenAndNotTwo( num ) || 
+      hasIntegerSquareRoot( num ) )
+    return false
+
+  // Vamos separar o teste da divisao
+  if ( hasDivisor( num ) )
+    return false
+    
+  return true
+}
+
+```
 
 <hr>
 
@@ -692,11 +794,11 @@ Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 
 **POR FAVOR SIGA ESSE PADRÃO**
 
-
-
-<br><br><br>
-
 <hr>
+
+
+<br><br>
+
 
 # Aula 01 - Exercício
 
