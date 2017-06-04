@@ -1,14 +1,12 @@
 # λAula01.(Como solucionar um problema)
 
-
-<br>
-
 Provavelmente esse curso seja bem diferente do que você est4 acostumado, <br> 
 pois eu irei ensinar a você pensar de uma forma diferente para solucionar seus problemas.
 
-Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**
+<br> 
 
-Tem uma palavra que você ir4 ouvir **muitoooooo** durante esse curso: **inferir**.
+Quem sabe você ache chato no início mas bote fé que **eu garanto que você ir4 aprender!**<br>
+Por isso você ir4 ouvir **muitoooooo** uma palavra  durante esse curso: **inferir**.
 
 Creio que sua própria definiç4o diz tudo:
 
@@ -30,11 +28,11 @@ Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcion
 
 <br>
 
-> Em ciência da computação, programação funcional é um 
-paradigma de programação que trata a computação como uma 
-avaliação de funções matemáticas e que evita estados ou 
-dados mutáveis. Ela enfatiza a aplicação de funções, em 
-contraste da programação imperativa, que enfatiza mudanças 
+> Em ciência da computação, programação funcional é um <br>
+paradigma de programação que trata a computação como uma <br>
+avaliação de funções matemáticas e que evita estados ou <br>
+dados mutáveis. Ela enfatiza a aplicação de funções, em <br>
+contraste da programação imperativa, que enfatiza mudanças <br>
 no estado do programa.
 
 > A definição de uma função descreve como a função será 
@@ -53,9 +51,8 @@ f(x) = x^2 + 2
 
 ```
 
-Ela definida em termos de funções de exponenciação e adição. 
-Do mesmo modo, a linguagem deve oferecer funções básicas que  
-<br> não requerem definições adicionais.
+Ela é definida em termos de funções de exponenciação e adição.<br> 
+Do mesmo modo, a linguagem deve oferecer funções básicas que não requerem definições adicionais.
 
 ##### λLembrete 1
 
@@ -124,11 +121,10 @@ Vou usar esse problema **SUPER SIMPLES** para demonstrar uma forma
 
 <br>
 
-**O nosso problema é t4o simples que só precisamos testar se os**
-<br> **números 10.002 e 10.003 s4o primos.**
+**O nosso problema é t4o simples que só precisamos testar se os**<br> 
+**números 10.002 e 10.003 s4o primos.**
 
 <br>
-
 
 > Eu **SEMPRE** inicio meu pensamento para solucionar algo pelos conceitos envolvidos.
 
@@ -149,7 +145,7 @@ fonte: [https://pt.wikipedia.org/wiki/N%C3%BAmero_primo](https://pt.wikipedia.or
 
 <br>
 
-Com isso podemos inferir que:
+Com isso podemos **inferir** que:
 
 > Ele só é divisível por ele mesmo e por 1.
 
@@ -400,7 +396,7 @@ function isPrime(num) {
 
 Para isso precisamos pensar em qual **operação matemática** pode nos fornecer uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso significa que esse todo é divisível.
 
-Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão, podemos inferir que o próximo passo, subindo um nível de complexidade, que podemos analisar é...???
+Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão, podemos **inferir** que o próximo passo, subindo um nível de complexidade, que podemos analisar é...???
 
 <br>
 
@@ -437,7 +433,7 @@ Mais fácil eu demonstrar ela:
 
 Ou seja, a potenciação é uma sequência de multiplicações. 
 
-Sabendo que a divisão é a operação inversa da multiplicação, podemos então definir que a operação que estamos buscando é...?
+Sabendo que a divisão é a operação inversa da multiplicação, podemos então **inferir** que a operação que estamos buscando é...?
 
 <br>
 <br>
@@ -475,8 +471,8 @@ Vamos analisar como ela funciona.
 
 <br>
 
-Se um número tem uma **raíz inteira** isso significa que ele é 
-<br>divisível por outro número menor do que a metade dele.
+Se um número tem uma **raíz inteira** isso significa que ele é <br>
+divisível por outro número menor do que a metade dele.
 
 <br>
 
@@ -519,7 +515,9 @@ function isPrime(num) {
 ### λRefatorando.(4 solução)
 
 
-Vamos iniciar com nosso código anterior para que possamos analisar quais partes podem ser separadas, pois cada uma validação é um teste diferente, logo tem responsabilidades diferentes.
+Vamos iniciar com nosso código anterior para que possamos analisar quais partes <br>
+podem ser separadas, pois cada uma validação é um teste diferente, <br>
+logo tem responsabilidades diferentes.
 
 Já iremos entender com o código:
 
@@ -614,7 +612,8 @@ isPrime 100007 false
 
 <br>
 
-Se os dois testes, `isEvenAndNot2` e `hasIntegerSquareRoot`, retornam `false` podemos testa-los de uma só vez:
+Se os dois testes, `isEvenAndNot2` e `hasIntegerSquareRoot`, retornam `false` <br>
+podemos testa-los de uma só vez:
 
 ```js
 if ( isEvenAndNot2( num ) || 
@@ -624,9 +623,14 @@ if ( isEvenAndNot2( num ) ||
 ```
 <br>
 
-Você deve ter percebido que não usei o `is` na func4o `hasIntegerSquareRoot` como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger), esse é um conceito que tento aplicar o m4ximo possível nos meus 
-códigos que é a **semantica**
+Você deve ter percebido que não usei o `is` na func4o `hasIntegerSquareRoot`<br>
+como é usado na `isEvenAndNot2` funç4os [isInteger](http://mdn.io/isInteger),<br>
+esse conceito tento aplicar o m4ximo possível nos meus códigos, que é a...
 
+![](http://i.imgur.com/oXyfZOa.png)
+
+
+<br>
 <br>
 > "...o componente do sentido das palavras..."
 <br>
