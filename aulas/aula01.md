@@ -854,7 +854,7 @@ const isPrime = ( num ) => {
 
 const isPrime = ( num ) => { 
   // Se nós temos 2 retornos podemos
-  // retornar com um IF ternario
+  // retornar com um IF ternário
   return ( isEvenAndNotTwo( num ) || 
           hasIntegerSquareRoot( num ) ||
           hasDivisor( num ) )
@@ -886,7 +886,7 @@ const isPrime = ( num ) =>
 <br>
 
 
-### Técnica - arrow function
+### λTécnica.(arrow function)
 
 Como você percebeu troquei todas `function` por *[arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)* que por hora ainda nao entrarei em maiores detalhes pois você só vera ela daqui para frente
 
@@ -909,11 +909,11 @@ Pois nós só conseguimos retirar o `return` de `isPrime` porque ela<br>
 <br>
 <br>
 
-### Técnica - if ternario
+### λTécnica.(if ternário)
 
 <br>
 
-> Percebeu que retornamos o resultado do teste de um *if* ternario?
+> Percebeu que retornamos o resultado do teste de um *if* ternário?
 
 <br>
 
@@ -931,9 +931,7 @@ const isPrime = ( num ) =>
 
 ```
 
-### Técnica - 
-
-### λTécnica.(funçao de validação)
+### λTécnica.(função de validação)
 
 
 
