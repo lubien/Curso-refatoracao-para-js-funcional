@@ -723,7 +723,7 @@ if ( isEvenAndNotTwo( num ) ||
 
 <br>
 
-Continuando nessas funções, porém agora nas suas definições lá   no início do código.
+Continuando nessas funções, porém agora nas suas definições lá no início do código.
 
 ```js
 
@@ -753,7 +753,7 @@ const hasIntegerSquareRoot = ( num ) =>
 <br>
 
 Depois disso nos sobrou separar o teste da divisão o qual precisamos tomar cuidado<br>
-para não fazer merda, pois precisamos ajeitar o contado do `for` que está assim:
+para não fazer merda, pois precisamos ajeitar o contador do `for` que está assim:
 
 ```js
 
