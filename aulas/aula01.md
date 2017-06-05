@@ -265,7 +265,7 @@ Adicionando essa regra no código imperativo:
 
 function isPrime(num) { 
   // se for par E não for 2
-  if ((n % 2) === 0 && n !== 2)
+  if ((num % 2) === 0 && num !== 2)
   for (let i = num - 1; i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
@@ -376,11 +376,11 @@ Adicionando essa regra no código imperativo:
 
 function isPrime(num) { 
   // se for par E não for 2
-  if ((n % 2) === 0 && n !== 2)
+  if ((num % 2) === 0 && num !== 2)
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var c = Math.floor(n / 2); c >= 1; c--) {
+  for (var c = Math.floor(num / 2); c >= 1; c--) {
     if(num % c === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
