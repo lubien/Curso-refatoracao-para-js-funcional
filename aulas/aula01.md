@@ -188,7 +188,7 @@ Vejamos isso em JS imperativo:
 ```js
 
 function isPrime(num) { 
-  for (let i = num - 1; i >= 1; i--) {
+  for (let i = num - 1; i > 1; i--) {
     if(num % i === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
@@ -266,7 +266,7 @@ Adicionando essa regra no código imperativo:
 function isPrime(num) { 
   // se for par E não for 2
   if ((n % 2) === 0 && n !== 2)
-  for (let i = num - 1; i >= 1; i--) {
+  for (let i = num - 1; i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
@@ -380,7 +380,7 @@ function isPrime(num) {
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var c = Math.ceil(n / 2); c >= 1; c--) {
+  for (var c = Math.floor(n / 2); c >= 1; c--) {
     if(num % c === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
@@ -502,7 +502,7 @@ function isPrime(num) {
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var i = Math.ceil(num / 2); i >= 2; i--) {
+  for (var i = Math.floor(num / 2); i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
@@ -544,7 +544,7 @@ function isPrime(num) {
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var i = Math.ceil(num / 2); i >= 2; i--) {
+  for (var i = Math.floor(num / 2); i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
@@ -587,7 +587,7 @@ const isPrime = ( num) => {
   if ( hasIntegerSquareRoot(num) )
     return false
   
-  let i = Math.ceil( num / 2 )
+  let i = Math.floor( num / 2 )
   // Começaremos as divisões a partir da sua metade
   for ( i; i >= 2; i-- ) {
     if( num % i === 0 ) {
@@ -757,7 +757,7 @@ para não fazer merda, pois precisamos ajeitar o contador do `for` que está ass
 
 ```js
 
-let i = Math.ceil( num / 2 )
+let i = Math.floor( num / 2 )
 // Começaremos as divisões a partir da sua metade
 for ( i; i >= 2; i-- ) {
 
@@ -803,7 +803,7 @@ Pois agora irei lhe mostrar onde esta esse famigerado<br>
 
 ```js
 
-let i = Math.ceil( num / 2 )
+let i = Math.floor( num / 2 )
 for ( i; i >= 2; i-- ) {
  // ... 
 }
@@ -819,7 +819,7 @@ seu escopo, porém para corrigir isso é bem simples, basta colocarmos o `i` den
 ```js
 
 const hasDivisor = ( num ) => {
-  for ( let i = Math.ceil( num / 2 ); i >= 2; i-- ) {
+  for ( let i = Math.floor( num / 2 ); i >= 2; i-- ) {
     if( ( num % i ) === 0 ) 
       return true
   }
@@ -1068,5 +1068,6 @@ Coloque ele como enunciado do exercício e logo após o seu código refatorado.
 ### Fiz essa aula com um exemplo matemático para que você abstraia todos esses 
 ## conceitos que passei e consiga implementa-los futuramente
 
-### Se querem ver códigos reais por favor mandem os seus
-### na sua ISSUE para que eu possa analisar.
+### O curso é sobre refatoraçao entao daqui para frente só veremos
+### situações e códigos reais e por favor mandem os seus
+### códigos na SUA ISSUE para que eu possa analisar.

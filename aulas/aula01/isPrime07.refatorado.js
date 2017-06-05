@@ -10,7 +10,7 @@ const hasIntegerSquareRoot = ( num ) =>
   ( Number.isInteger( Math.sqrt( num ) ) )
 
 const hasDivisor = ( num ) => {
-  for ( let i = Math.ceil( num / 2 ); i >= 2; i-- ) {
+  for ( let i = Math.floor( num / 2 ); i >= 2; i-- ) {
     if( ( num % i ) === 0 ) {
       console.log( '\n' )
       console.log( num + ' é divisível por: ', i )

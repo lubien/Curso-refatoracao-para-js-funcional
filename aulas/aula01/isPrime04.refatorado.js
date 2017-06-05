@@ -22,7 +22,7 @@ const isPrime = ( num) => {
   if ( hasIntegerSquareRoot(num) )
     return false
   
-  let i = Math.ceil( num / 2 )
+  let i = Math.floor( num / 2 )
   // Começaremos as divisões a partir da sua metade
   for ( i; i >= 2; i-- ) {
     if( num % i === 0 ) {
