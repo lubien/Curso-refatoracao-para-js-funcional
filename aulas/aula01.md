@@ -404,8 +404,8 @@ uma parte inteira desse todo, pois se tivermos **uma parte inteira** isso<br>
 significa que esse todo é divisível.
 
 Se usarmos o [conceito da divisibilidade](http://www.dicionarioinformal.com.br/divisibilidade/), ou seja, usar a operação da divisão,<br> 
-podemos **inferir** que o próximo passo, subindo um nível de complexidade,<br> 
-que podemos analisar é...???
+com isso podemos **inferir** que o próximo passo, subindo um nível de complexidade,<br> 
+**será...???**
 
 <br>
 
@@ -429,11 +429,13 @@ Mais fácil eu demonstrar ela:
 
 ```
 
+// 3 elevado ao quadrado
 9 = 3 * 3
-9 = 3 ^ 2 // 3 elevado ao quadrado
+9 = 3 ^ 2 
 
+// 3 elevado ao cubo
 27 = 3 * 3 * 3
-27 = 3 ^ 3 // 3 elevado ao cubo
+27 = 3 ^ 3 
 
 ```
 
@@ -464,12 +466,13 @@ que **a operação que estamos buscando é...?**
 Vamos analisar como ela funciona.
 
 ```
-
-√9 = 3 // raíz quadrada de 27
+// raíz quadrada de 9
+√9 = 3 
 9 = 3 * 3
 9 / 3 = 3 
 
-3√27 = 3 // raíz cúbica de 27
+// raíz cúbica de 27
+3√27 = 3 
 27 = 3 * 3 * 3
 27 / 3 = 9
 
