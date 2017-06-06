@@ -89,6 +89,8 @@ Logo mais você irá entender o porquê.
 <br>
 <br>
 
+> Fácil! Basta aplciar essa fórmula na programação, não tem segredo.
+
 **Você deve estar pensando:**
 
 <br>
@@ -102,15 +104,15 @@ Logo mais você irá entender o porquê.
 <br>
 <br>
 
-Eu acredito, IMHO, que para você ser um bom programador precisa ter
-<br> no mínimo 2 coisas essênciais: 
 
+> Vou mostrar-lhe como resolver esse problema sem usar nada pronto, 
+> apenas nosso cérebro!
 
-<br>
-<br>
+> Eu acredito, IMHO, que para você ser um bom programador precisa ter 
+> no mínimo 2 coisas essênciais: 
 
-- **Inglês** // SIM! É obrigatório! Ou você programa em Português?
-- **Lógica** // Tanto a de Programação como Matemática
+> - **Inglês** // SIM! É obrigatório! Ou você programa em Português?
+> - **Lógica** // Tanto a de Programação como Matemática
 
 <br><br>
 
