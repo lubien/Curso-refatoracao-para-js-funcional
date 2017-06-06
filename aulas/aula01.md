@@ -89,6 +89,8 @@ Logo mais você irá entender o porquê.
 <br>
 <br>
 
+> Fácil! Basta aplciar essa fórmula na programação, não tem segredo.
+
 **Você deve estar pensando:**
 
 <br>
@@ -102,15 +104,15 @@ Logo mais você irá entender o porquê.
 <br>
 <br>
 
-Eu acredito, IMHO, que para você ser um bom programador precisa ter
-<br> no mínimo 2 coisas essênciais: 
 
+> Vou mostrar-lhe como resolver esse problema sem usar nada pronto, 
+> apenas nosso cérebro!
 
-<br>
-<br>
+> Eu acredito, IMHO, que para você ser um bom programador precisa ter 
+> no mínimo 2 coisas essênciais: 
 
-- **Inglês** // SIM! É obrigatório! Ou você programa em Português?
-- **Lógica** // Tanto a de Programação como Matemática
+> - **Inglês** // SIM! É obrigatório! Ou você programa em Português?
+> - **Lógica** // Tanto a de Programação como Matemática
 
 <br><br>
 
@@ -265,7 +267,7 @@ Adicionando essa regra no código imperativo:
 
 function isPrime(num) { 
   // se for par E não for 2
-  if ((n % 2) === 0 && n !== 2)
+  if ((num % 2) === 0 && num !== 2)
   for (let i = num - 1; i >= 2; i--) {
     if(num % i === 0) {
       console.log('\n')
@@ -318,9 +320,7 @@ Podemos iniciar pela maior divisão inteira de algo.
 <br>
 <br>
 
-> Se vocé pegar um *Array* de dez elementos e quer separar ele em partes<br> 
-as quais **sejam iguais e as maiores possíveis**. 
-
+> Se você  pegar um *Array* de dez elementos e quer separar ele em s**partes iguais que sejam as maiores possíveis**. 
 > O que fará???
 
 <br><br>
@@ -376,11 +376,11 @@ Adicionando essa regra no código imperativo:
 
 function isPrime(num) { 
   // se for par E não for 2
-  if ((n % 2) === 0 && n !== 2)
+  if ((num % 2) === 0 && num !== 2)
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var c = Math.floor(n / 2); c >= 1; c--) {
+  for (var c = Math.floor(num / 2); c >= 1; c--) {
     if(num % c === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
