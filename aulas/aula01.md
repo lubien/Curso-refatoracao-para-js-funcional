@@ -318,9 +318,7 @@ Podemos iniciar pela maior divisão inteira de algo.
 <br>
 <br>
 
-> Se vocé pegar um *Array* de dez elementos e quer separar ele em partes<br> 
-as quais **sejam iguais e as maiores possíveis**. 
-
+> Se você  pegar um *Array* de dez elementos e quer separar ele em s**partes iguais que sejam as maiores possíveis**. 
 > O que fará???
 
 <br><br>
