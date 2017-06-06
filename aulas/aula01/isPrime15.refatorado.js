@@ -23,9 +23,9 @@ const isEvenAndNot2 = ( num ) =>
   ( isNot ( even( num ) ) && ( num !== 2 ) )
 
 const isPrime = ( num ) => 
-  ( !isEvenAndNot2( num ) && 
-    !hasIntegerSquareRoot( num ) &&
-    !hasDivisor( num ) )
+  ( NOT( isEvenAndNot2( num ) ) && 
+    NOT( hasIntegerSquareRoot( num ) ) &&
+    NOT( hasDivisor( num ) ) )
 
 
 console.log('filter', [2, 3, 4, 5].filter(isPrime))
