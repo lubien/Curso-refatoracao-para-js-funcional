@@ -1,5 +1,8 @@
+# λAula02.(Atualizando seus códigos para ES6)
 
-# Aula 2 - Code Style Funcional
+
+
+## λCodeStyle 
 
 * **Use 2 espaços** para identação.
 
