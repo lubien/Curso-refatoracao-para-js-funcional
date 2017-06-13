@@ -1,8 +1,11 @@
-
-
 function isPrime(num) { 
   // se for par E não for 2
   if ((num % 2) === 0 && num !== 2)
+    return false;
+
+  // Se um número tem uma **raíz inteira** 
+  // isso significa que ele é divisível
+  if (Number.isInteger(Math.sqrt(num)))
     return false;
 
   // Começaremos as divisões a partir da sua metade
