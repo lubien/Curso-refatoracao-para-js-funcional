@@ -381,8 +381,8 @@ function isPrime(num) {
     return false;
 
   // Começaremos as divisões a partir da sua metade
-  for (var c = Math.floor(num / 2); c >= 1; c--) {
-    if(num % c === 0) {
+  for (let i = Math.floor(num / 2); i >= 1; i--) {
+    if(num % i  === 0) {
       console.log('\n')
       console.log(num + ' é divisível por: ', i)
       return false;
