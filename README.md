@@ -96,7 +96,7 @@ devidamente explicado, ou seja, o foco do curso é de iniciantes para cima.
 - *pure functions*
 - *first class & high order functions*
 
-*ps: Deixarei currying e compose como bônus se chegarmos a 100 inscritos.*
+*ps: Deixarei currying, compose e trampoline como bônus se chegarmos a 100 inscritos.*
 
 <br>
 
@@ -109,7 +109,7 @@ das diretrizes passadas nas aulas.
 
 ### Tempo
 
-O curso será gravado e terá entre 1 a 3 horas e será disponibilizado **apenas** após termos 100 alunos pagantes. Esse curso será lançado no início de Junho ou quando atingirmos a meta de alunos.
+O curso será gravado e cada aula terá entre 5 a 15 minutos e será disponibilizada **apenas** após termos 100 alunos pagantes. Esse curso será lançado no início de Junho ou quando atingirmos a meta de alunos.
 
 <br>
 
@@ -160,6 +160,12 @@ Além disso, como prevejo que re-usaremos muitas funções irei montar uma mini 
 ### [Fernando Daciuk](https://github.com/fdaciuk) - Curso - 1 - ReactJS Ninja
 
 [![Curso ReactJS Ninja](https://blog.da2k.com.br/uploads/2016/05/curso-reactjs-ninja.png)](https://blog.da2k.com.br/curso-reactjs-ninja/)
+
+### [Afonso Pacifer](https://github.com/afonsopacifer) - Curso - 1 - CSS Um atalho na sua vida profissional
+
+
+[![CSS Um atalho na sua vida profissional](http://i.imgur.com/b2DYbWs.png)](https://csshortcut.github.io/)
+
 
 
 
