@@ -23,9 +23,8 @@ Creio que sua própria definição diz tudo:
 <br>
 <br>
 
-Após o devido aviso venho por meio desta apresentar-lhe <br> 
-a Programação Funcional caso você **ainda** não tenha <br>  
-ouvido falar, o que acho **muito** difícil.
+Após o devido aviso venho por meio desta apresentar-lhe a Programação Funcional<br> 
+caso você **ainda** não tenha ouvido falar, o que acho **muito** difícil.
 
 <br>
 
