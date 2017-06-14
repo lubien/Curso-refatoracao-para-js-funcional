@@ -12,11 +12,12 @@ const hasIntegerSquareRoot = ( num ) =>
 const hasDivisor = ( num ) =>
   range(2, Math.floor(num / 2))
     .some(i => num % i === 0)
+    
+const anyPass = (preds, value) =>
+  preds.some(f => f(value))
 
 const isPrime = (num) => 
-  NOT ( isEvenAndIsNotTwo( num ) ||
-        hasIntegerSquareRoot( num ) ||
-        hasDivisor( num ) )
+  NOT(anyPass([isEvenAndIsNotTwo, hasIntegerSquareRoot, hasDivisor], num))
 
 
 console.log('isPrime 10002', isPrime(10002))
