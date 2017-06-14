@@ -1,3 +1,6 @@
+const range = (start, end) =>
+  Array.from({length: end - start}, (_, i) => i + start)
+
 const NOT = ( i ) => !i
 
 const isEvenAndIsNotTwo = ( num ) =>
@@ -6,16 +9,9 @@ const isEvenAndIsNotTwo = ( num ) =>
 const hasIntegerSquareRoot = ( num ) => 
   ( Number.isInteger( Math.sqrt( num ) ) )
 
-const hasDivisor = ( num ) => {
-  for (let i = Math.floor(num / 2); i > 1; i--) {
-    if(num % i === 0) {
-      console.log('\n')
-      console.log(num + ' é divisível por: ', i)
-      return true
-    }
-  }
-  return false
-}
+const hasDivisor = ( num ) =>
+  range(2, Math.floor(num / 2))
+    .some(i => num % i === 0)
 
 const isPrime = (num) => 
   NOT ( isEvenAndIsNotTwo( num ) ||
